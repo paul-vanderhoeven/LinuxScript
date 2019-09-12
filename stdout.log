@@ -1,0 +1,1359 @@
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+dconf-editor est déjà la version la plus récente (3.32.0-1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+klavaro est déjà la version la plus récente (3.03-2).
+qbittorrent est déjà la version la plus récente (4.1.5-1).
+synaptic est déjà la version la plus récente (0.84.5).
+vim est déjà la version la plus récente (2:8.1.0320-1ubuntu3.1).
+libreoffice est déjà la version la plus récente (1:6.2.6-0ubuntu0.19.04.1).
+vlc est déjà la version la plus récente (3.0.7.1-0ubuntu19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Exécuter la configuration du point d'accroche du paquet Snap "core"                                 /[0m[?25h[KLecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+Les paquets supplémentaires suivants seront installés : 
+  ca-certificates-java default-jdk default-jdk-headless default-jre
+  default-jre-headless icu-devtools libatk-wrapper-java
+  libatk-wrapper-java-jni libice-dev libicu-dev libpcap-dev libpcap0.8-dev
+  libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libsctp-dev libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev
+  libxdmcp-dev libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless
+  openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+Paquets suggérés :
+  libice-doc icu-doc lksctp-tools libsm-doc libssl-doc libx11-doc libxcb-doc
+  pkg-config libxt-doc openjdk-11-demo openjdk-11-source visualvm
+  fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  | fonts-wqy-zenhei
+Les NOUVEAUX paquets suivants seront installés :
+  ca-certificates-java default-jdk default-jdk-headless default-jre
+  default-jre-headless eclipse-titan icu-devtools libatk-wrapper-java
+  libatk-wrapper-java-jni libice-dev libicu-dev libpcap-dev libpcap0.8-dev
+  libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libsctp-dev libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev
+  libxdmcp-dev libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless
+  openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+0 mis à jour, 36 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Il est nécessaire de prendre 279 Mo dans les archives.
+Après cette opération, 562 Mo d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jre-headless amd64 11.0.4+11-1ubuntu2~19.04 [37,2 MB]
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+dconf-editor est déjà la version la plus récente (3.32.0-1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+klavaro est déjà la version la plus récente (3.03-2).
+qbittorrent est déjà la version la plus récente (4.1.5-1).
+synaptic est déjà la version la plus récente (0.84.5).
+vim est déjà la version la plus récente (2:8.1.0320-1ubuntu3.1).
+libreoffice est déjà la version la plus récente (1:6.2.6-0ubuntu0.19.04.1).
+vlc est déjà la version la plus récente (3.0.7.1-0ubuntu19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Exécuter la configuration du point d'accroche du paquet Snap "core"                                 /[0m[?25h[KLecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+Les paquets supplémentaires suivants seront installés : 
+  ca-certificates-java default-jdk default-jdk-headless default-jre
+  default-jre-headless icu-devtools libatk-wrapper-java
+  libatk-wrapper-java-jni libice-dev libicu-dev libpcap-dev libpcap0.8-dev
+  libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libsctp-dev libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev
+  libxdmcp-dev libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless
+  openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+Paquets suggérés :
+  libice-doc icu-doc lksctp-tools libsm-doc libssl-doc libx11-doc libxcb-doc
+  pkg-config libxt-doc openjdk-11-demo openjdk-11-source visualvm
+  fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  | fonts-wqy-zenhei
+Les NOUVEAUX paquets suivants seront installés :
+  ca-certificates-java default-jdk default-jdk-headless default-jre
+  default-jre-headless eclipse-titan icu-devtools libatk-wrapper-java
+  libatk-wrapper-java-jni libice-dev libicu-dev libpcap-dev libpcap0.8-dev
+  libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libsctp-dev libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev
+  libxdmcp-dev libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless
+  openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+0 mis à jour, 36 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Il est nécessaire de prendre 279 Mo dans les archives.
+Après cette opération, 562 Mo d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jre-headless amd64 11.0.4+11-1ubuntu2~19.04 [37,2 MB]
+Réception de :2 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jre-headless amd64 2:1.11-71 [3 188 B]
+Réception de :3 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 ca-certificates-java all 20190405ubuntu1 [12,2 kB]
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jre amd64 11.0.4+11-1ubuntu2~19.04 [34,5 kB]
+Réception de :5 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jre amd64 2:1.11-71 [1 084 B]
+Réception de :6 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jdk-headless amd64 11.0.4+11-1ubuntu2~19.04 [213 MB]
+Réception de :7 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jdk-headless amd64 2:1.11-71 [1 144 B]
+Réception de :8 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jdk amd64 11.0.4+11-1ubuntu2~19.04 [2 182 kB]
+Réception de :9 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jdk amd64 2:1.11-71 [1 096 B]
+Réception de :10 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcap0.8-dev amd64 1.8.1-6ubuntu1 [217 kB]
+Réception de :11 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcap-dev amd64 1.8.1-6ubuntu1 [3 480 B]
+Réception de :12 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcre16-3 amd64 2:8.39-12 [149 kB]
+Réception de :13 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcre32-3 amd64 2:8.39-12 [140 kB]
+Réception de :14 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcrecpp0v5 amd64 2:8.39-12 [15,4 kB]
+Réception de :15 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcre3-dev amd64 2:8.39-12 [542 kB]
+Réception de :16 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libsctp1 amd64 1.0.18+dfsg-1 [7 876 B]
+Réception de :17 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libsctp-dev amd64 1.0.18+dfsg-1 [59,8 kB]
+Réception de :18 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libssl-dev amd64 1.1.1b-1ubuntu2.1 [1 572 kB]
+Réception de :19 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 icu-devtools amd64 63.1-6 [180 kB]
+Réception de :20 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libicu-dev amd64 63.1-6 [9 175 kB]
+Réception de :21 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxml2-dev amd64 2.9.4+dfsg1-7ubuntu3 [719 kB]
+Réception de :22 http://fr.archive.ubuntu.com/ubuntu disco/universe amd64 eclipse-titan amd64 6.5.0-1ubuntu1 [11,9 MB]
+Réception de :23 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libatk-wrapper-java all 0.33.3-21 [34,6 kB]
+Réception de :24 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libatk-wrapper-java-jni amd64 0.33.3-21 [28,2 kB]
+Réception de :25 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 xorg-sgml-doctools all 1:1.11-1 [12,9 kB]
+Réception de :26 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 x11proto-dev all 2018.4-4 [251 kB]
+Réception de :27 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 x11proto-core-dev all 2018.4-4 [2 620 B]
+Réception de :28 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libice-dev amd64 2:1.0.9-2 [46,8 kB]
+Réception de :29 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpthread-stubs0-dev amd64 0.4-1 [5 384 B]
+Réception de :30 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libsm-dev amd64 2:1.2.3-1 [17,0 kB]
+Réception de :31 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxau-dev amd64 1:1.0.8-1 [11,1 kB]
+Réception de :32 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxdmcp-dev amd64 1:1.1.2-3 [25,1 kB]
+Réception de :33 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 xtrans-dev all 1.3.5-1 [70,5 kB]
+Réception de :34 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxcb1-dev amd64 1.13.1-2 [79,9 kB]
+Réception de :35 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libx11-dev amd64 2:1.6.7-1 [644 kB]
+Réception de :36 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxt-dev amd64 1:1.1.5-1 [395 kB]
+255 Mo réceptionnés en 4min 55s (865 ko/s)
+Sélection du paquet openjdk-11-jre-headless:amd64 précédemment désélectionné.
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 183845 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../00-openjdk-11-jre-headless_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jre-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jre-headless précédemment désélectionné.
+Préparation du dépaquetage de .../01-default-jre-headless_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jre-headless (2:1.11-71) ...
+Sélection du paquet ca-certificates-java précédemment désélectionné.
+Préparation du dépaquetage de .../02-ca-certificates-java_20190405ubuntu1_all.deb ...
+Dépaquetage de ca-certificates-java (20190405ubuntu1) ...
+Sélection du paquet openjdk-11-jre:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../03-openjdk-11-jre_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jre:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jre précédemment désélectionné.
+Préparation du dépaquetage de .../04-default-jre_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jre (2:1.11-71) ...
+Sélection du paquet openjdk-11-jdk-headless:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../05-openjdk-11-jdk-headless_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jdk-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jdk-headless précédemment désélectionné.
+Préparation du dépaquetage de .../06-default-jdk-headless_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jdk-headless (2:1.11-71) ...
+Sélection du paquet openjdk-11-jdk:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../07-openjdk-11-jdk_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jdk:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jdk précédemment désélectionné.
+Préparation du dépaquetage de .../08-default-jdk_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jdk (2:1.11-71) ...
+Sélection du paquet libpcap0.8-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../09-libpcap0.8-dev_1.8.1-6ubuntu1_amd64.deb ...
+Dépaquetage de libpcap0.8-dev:amd64 (1.8.1-6ubuntu1) ...
+Sélection du paquet libpcap-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../10-libpcap-dev_1.8.1-6ubuntu1_amd64.deb ...
+Dépaquetage de libpcap-dev:amd64 (1.8.1-6ubuntu1) ...
+Sélection du paquet libpcre16-3:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../11-libpcre16-3_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcre16-3:amd64 (2:8.39-12) ...
+Sélection du paquet libpcre32-3:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../12-libpcre32-3_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcre32-3:amd64 (2:8.39-12) ...
+Sélection du paquet libpcrecpp0v5:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../13-libpcrecpp0v5_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcrecpp0v5:amd64 (2:8.39-12) ...
+Sélection du paquet libpcre3-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../14-libpcre3-dev_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcre3-dev:amd64 (2:8.39-12) ...
+Sélection du paquet libsctp1:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../15-libsctp1_1.0.18+dfsg-1_amd64.deb ...
+Dépaquetage de libsctp1:amd64 (1.0.18+dfsg-1) ...
+Sélection du paquet libsctp-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../16-libsctp-dev_1.0.18+dfsg-1_amd64.deb ...
+Dépaquetage de libsctp-dev:amd64 (1.0.18+dfsg-1) ...
+Sélection du paquet libssl-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../17-libssl-dev_1.1.1b-1ubuntu2.1_amd64.deb ...
+Dépaquetage de libssl-dev:amd64 (1.1.1b-1ubuntu2.1) ...
+Sélection du paquet icu-devtools précédemment désélectionné.
+Préparation du dépaquetage de .../18-icu-devtools_63.1-6_amd64.deb ...
+Dépaquetage de icu-devtools (63.1-6) ...
+Sélection du paquet libicu-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../19-libicu-dev_63.1-6_amd64.deb ...
+Dépaquetage de libicu-dev:amd64 (63.1-6) ...
+Sélection du paquet libxml2-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../20-libxml2-dev_2.9.4+dfsg1-7ubuntu3_amd64.deb ...
+Dépaquetage de libxml2-dev:amd64 (2.9.4+dfsg1-7ubuntu3) ...
+Sélection du paquet eclipse-titan précédemment désélectionné.
+Préparation du dépaquetage de .../21-eclipse-titan_6.5.0-1ubuntu1_amd64.deb ...
+Dépaquetage de eclipse-titan (6.5.0-1ubuntu1) ...
+Sélection du paquet libatk-wrapper-java précédemment désélectionné.
+Préparation du dépaquetage de .../22-libatk-wrapper-java_0.33.3-21_all.deb ...
+Dépaquetage de libatk-wrapper-java (0.33.3-21) ...
+Sélection du paquet libatk-wrapper-java-jni:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../23-libatk-wrapper-java-jni_0.33.3-21_amd64.deb ...
+Dépaquetage de libatk-wrapper-java-jni:amd64 (0.33.3-21) ...
+Sélection du paquet xorg-sgml-doctools précédemment désélectionné.
+Préparation du dépaquetage de .../24-xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Dépaquetage de xorg-sgml-doctools (1:1.11-1) ...
+Sélection du paquet x11proto-dev précédemment désélectionné.
+Préparation du dépaquetage de .../25-x11proto-dev_2018.4-4_all.deb ...
+Dépaquetage de x11proto-dev (2018.4-4) ...
+Sélection du paquet x11proto-core-dev précédemment désélectionné.
+Préparation du dépaquetage de .../26-x11proto-core-dev_2018.4-4_all.deb ...
+Dépaquetage de x11proto-core-dev (2018.4-4) ...
+Sélection du paquet libice-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../27-libice-dev_2%3a1.0.9-2_amd64.deb ...
+Dépaquetage de libice-dev:amd64 (2:1.0.9-2) ...
+Sélection du paquet libpthread-stubs0-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../28-libpthread-stubs0-dev_0.4-1_amd64.deb ...
+Dépaquetage de libpthread-stubs0-dev:amd64 (0.4-1) ...
+Sélection du paquet libsm-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../29-libsm-dev_2%3a1.2.3-1_amd64.deb ...
+Dépaquetage de libsm-dev:amd64 (2:1.2.3-1) ...
+Sélection du paquet libxau-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../30-libxau-dev_1%3a1.0.8-1_amd64.deb ...
+Dépaquetage de libxau-dev:amd64 (1:1.0.8-1) ...
+Sélection du paquet libxdmcp-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../31-libxdmcp-dev_1%3a1.1.2-3_amd64.deb ...
+Dépaquetage de libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Sélection du paquet xtrans-dev précédemment désélectionné.
+Préparation du dépaquetage de .../32-xtrans-dev_1.3.5-1_all.deb ...
+Dépaquetage de xtrans-dev (1.3.5-1) ...
+Sélection du paquet libxcb1-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../33-libxcb1-dev_1.13.1-2_amd64.deb ...
+Dépaquetage de libxcb1-dev:amd64 (1.13.1-2) ...
+Sélection du paquet libx11-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../34-libx11-dev_2%3a1.6.7-1_amd64.deb ...
+Dépaquetage de libx11-dev:amd64 (2:1.6.7-1) ...
+Sélection du paquet libxt-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../35-libxt-dev_1%3a1.1.5-1_amd64.deb ...
+Dépaquetage de libxt-dev:amd64 (1:1.1.5-1) ...
+Paramétrage de libpcrecpp0v5:amd64 (2:8.39-12) ...
+Paramétrage de libpcre16-3:amd64 (2:8.39-12) ...
+Paramétrage de libpcap0.8-dev:amd64 (1.8.1-6ubuntu1) ...
+Paramétrage de libpthread-stubs0-dev:amd64 (0.4-1) ...
+Paramétrage de xtrans-dev (1.3.5-1) ...
+Paramétrage de libssl-dev:amd64 (1.1.1b-1ubuntu2.1) ...
+Paramétrage de libpcre32-3:amd64 (2:8.39-12) ...
+Paramétrage de icu-devtools (63.1-6) ...
+Paramétrage de libsctp1:amd64 (1.0.18+dfsg-1) ...
+Paramétrage de xorg-sgml-doctools (1:1.11-1) ...
+Paramétrage de libatk-wrapper-java (0.33.3-21) ...
+Paramétrage de ca-certificates-java (20190405ubuntu1) ...
+head: impossible d'ouvrir '/etc/ssl/certs/java/cacerts' en lecture: Aucun fichier ou dossier de ce type
+Adding debian:Taiwan_GRCA.pem
+Adding debian:ACCVRAIZ1.pem
+Adding debian:thawte_Primary_Root_CA.pem
+Adding debian:QuoVadis_Root_CA.pem
+Adding debian:GeoTrust_Primary_Certification_Authority.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:Staat_der_Nederlanden_EV_Root_CA.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:TrustCor_RootCert_CA-1.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G3.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:Certplus_Class_2_Primary_CA.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:Global_Chambersign_Root_-_2008.pem
+Adding debian:GeoTrust_Universal_CA_2.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:DST_Root_CA_X3.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:AddTrust_External_Root.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:Certigna.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:Izenpe.com.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G3.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:thawte_Primary_Root_CA_-_G3.pem
+Adding debian:thawte_Primary_Root_CA_-_G2.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+Adding debian:TrustCor_RootCert_CA-2.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:LuxTrust_Global_Root_2.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:E-Tugra_Certification_Authority.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G2.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:EE_Certification_Centre_Root_CA.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:GeoTrust_Global_CA.pem
+Adding debian:TrustCor_ECA-1.pem
+Adding debian:Deutsche_Telekom_Root_CA_2.pem
+Adding debian:Sonera_Class_2_Root_CA.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+Adding debian:EC-ACC.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:OISTE_WISeKey_Global_Root_GA_CA.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+Adding debian:Trustis_FPS_Root_CA.pem
+Adding debian:Certinomis_-_Root_CA.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:GeoTrust_Universal_CA.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+done.
+Paramétrage de libicu-dev:amd64 (63.1-6) ...
+Paramétrage de x11proto-dev (2018.4-4) ...
+Paramétrage de libpcap-dev:amd64 (1.8.1-6ubuntu1) ...
+Paramétrage de libxau-dev:amd64 (1:1.0.8-1) ...
+Paramétrage de libice-dev:amd64 (2:1.0.9-2) ...
+Paramétrage de libsm-dev:amd64 (2:1.2.3-1) ...
+Paramétrage de libpcre3-dev:amd64 (2:8.39-12) ...
+Paramétrage de libatk-wrapper-java-jni:amd64 (0.33.3-21) ...
+Paramétrage de libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Paramétrage de libxml2-dev:amd64 (2.9.4+dfsg1-7ubuntu3) ...
+Paramétrage de x11proto-core-dev (2018.4-4) ...
+Paramétrage de libsctp-dev:amd64 (1.0.18+dfsg-1) ...
+Paramétrage de libxcb1-dev:amd64 (1.13.1-2) ...
+Paramétrage de libx11-dev:amd64 (2:1.6.7-1) ...
+Paramétrage de libxt-dev:amd64 (1:1.1.5-1) ...
+Paramétrage de default-jre-headless (2:1.11-71) ...
+Paramétrage de openjdk-11-jre-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid » pour fournir « /usr/bin/rmid » (rmid) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/java » pour fournir « /usr/bin/java » (java) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool » pour fournir « /usr/bin/keytool » (keytool) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs » pour fournir « /usr/bin/jjs » (jjs) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 » pour fournir « /usr/bin/pack200 » (pack200) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry » pour fournir « /usr/bin/rmiregistry » (rmiregistry) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 » pour fournir « /usr/bin/unpack200 » (unpack200) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec » pour fournir « /usr/bin/jexec » (jexec) en mode automatique
+Paramétrage de openjdk-11-jre:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Paramétrage de openjdk-11-jdk-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jar » pour fournir « /usr/bin/jar » (jar) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jarsigner » pour fournir « /usr/bin/jarsigner » (jarsigner) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/javac » pour fournir « /usr/bin/javac » (javac) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc » pour fournir « /usr/bin/javadoc » (javadoc) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/javap » pour fournir « /usr/bin/javap » (javap) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jcmd » pour fournir « /usr/bin/jcmd » (jcmd) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jdb » pour fournir « /usr/bin/jdb » (jdb) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeprscan » pour fournir « /usr/bin/jdeprscan » (jdeprscan) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeps » pour fournir « /usr/bin/jdeps » (jdeps) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jimage » pour fournir « /usr/bin/jimage » (jimage) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jinfo » pour fournir « /usr/bin/jinfo » (jinfo) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jlink » pour fournir « /usr/bin/jlink » (jlink) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jmap » pour fournir « /usr/bin/jmap » (jmap) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jmod » pour fournir « /usr/bin/jmod » (jmod) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jps » pour fournir « /usr/bin/jps » (jps) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jrunscript » pour fournir « /usr/bin/jrunscript » (jrunscript) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jshell » pour fournir « /usr/bin/jshell » (jshell) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jstack » pour fournir « /usr/bin/jstack » (jstack) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jstat » pour fournir « /usr/bin/jstat » (jstat) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jstatd » pour fournir « /usr/bin/jstatd » (jstatd) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/rmic » pour fournir « /usr/bin/rmic » (rmic) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/serialver » pour fournir « /usr/bin/serialver » (serialver) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jaotc » pour fournir « /usr/bin/jaotc » (jaotc) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jhsdb » pour fournir « /usr/bin/jhsdb » (jhsdb) en mode automatique
+Paramétrage de default-jre (2:1.11-71) ...
+Paramétrage de default-jdk-headless (2:1.11-71) ...
+Paramétrage de openjdk-11-jdk:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jconsole » pour fournir « /usr/bin/jconsole » (jconsole) en mode automatique
+Paramétrage de default-jdk (2:1.11-71) ...
+Paramétrage de eclipse-titan (6.5.0-1ubuntu1) ...
+Traitement des actions différées (« triggers ») pour desktop-file-utils (0.23-4ubuntu1) ...
+Traitement des actions différées (« triggers ») pour mime-support (3.60ubuntu1) ...
+Traitement des actions différées (« triggers ») pour hicolor-icon-theme (0.17-2) ...
+Traitement des actions différées (« triggers ») pour gnome-menus (3.32.0-1ubuntu1) ...
+Traitement des actions différées (« triggers ») pour libc-bin (2.29-0ubuntu2) ...
+Traitement des actions différées (« triggers ») pour man-db (2.8.5-2) ...
+Traitement des actions différées (« triggers ») pour ca-certificates (20190110) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+steam-launcher est déjà la version la plus récente (1.0.0.61).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Réception de :3 http://security.ubuntu.com/ubuntu disco-security InRelease [97,5 kB]
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease [97,5 kB]
+Atteint :5 http://repo.steampowered.com/steam precise InRelease
+Atteint :6 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Réception de :7 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease [88,8 kB]
+Réception de :8 http://security.ubuntu.com/ubuntu disco-security/main amd64 DEP-11 Metadata [33,8 kB]
+Réception de :9 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 Packages [248 kB]
+Réception de :10 http://security.ubuntu.com/ubuntu disco-security/main DEP-11 48x48 Icons [8 732 B]
+Réception de :11 http://security.ubuntu.com/ubuntu disco-security/main DEP-11 64x64 Icons [21,4 kB]
+Réception de :12 http://security.ubuntu.com/ubuntu disco-security/universe amd64 DEP-11 Metadata [17,5 kB]
+Réception de :13 http://security.ubuntu.com/ubuntu disco-security/universe DEP-11 48x48 Icons [14,3 kB]
+Réception de :14 http://security.ubuntu.com/ubuntu disco-security/universe DEP-11 64x64 Icons [44,7 kB]
+Réception de :15 http://fr.archive.ubuntu.com/ubuntu disco-updates/main i386 Packages [211 kB]
+Réception de :16 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 DEP-11 Metadata [131 kB]
+Réception de :17 http://fr.archive.ubuntu.com/ubuntu disco-updates/main DEP-11 48x48 Icons [15,2 kB]
+Réception de :18 http://fr.archive.ubuntu.com/ubuntu disco-updates/main DEP-11 64x64 Icons [38,2 kB]
+Réception de :19 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe i386 Packages [287 kB]
+Réception de :20 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 Packages [292 kB]
+Réception de :21 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe Translation-en [96,5 kB]
+Réception de :22 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 DEP-11 Metadata [62,0 kB]
+Réception de :23 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe DEP-11 48x48 Icons [32,6 kB]
+Réception de :24 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe DEP-11 64x64 Icons [99,3 kB]
+Réception de :25 http://fr.archive.ubuntu.com/ubuntu disco-backports/universe amd64 DEP-11 Metadata [7 920 B]
+1 945 ko réceptionnés en 2s (789 ko/s)
+Lecture des listes de paquets…
+Atteint :1 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :2 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :4 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :6 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :7 http://repo.steampowered.com/steam precise InRelease
+Lecture des listes de paquets…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+lutris est déjà la version la plus récente (0.5.2.2).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 3 non mis à jour.
+OK
+Atteint :1 http://repo.steampowered.com/steam precise InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :4 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :6 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Atteint :7 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://repo.steampowered.com/steam precise InRelease
+Atteint :6 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :7 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+3 paquets peuvent être mis à jour. Exécutez « apt list --upgradable » pour les voir.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+wine-stable est déjà la version la plus récente (4.0.2~disco).
+wine-stable-amd64 est déjà la version la plus récente (4.0.2~disco).
+winehq-stable est déjà la version la plus récente (4.0.2~disco).
+wine-stable-i386:i386 est déjà la version la plus récente (4.0.2~disco).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 3 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+libasound2-plugins:i386 est déjà la version la plus récente (1.1.8-1ubuntu1).
+libfreetype6:i386 est déjà la version la plus récente (2.9.1-3).
+libgpg-error0:i386 est déjà la version la plus récente (1.35-1).
+libxml2:i386 est déjà la version la plus récente (2.9.4+dfsg1-7ubuntu3).
+libsdl2-2.0-0:i386 est déjà la version la plus récente (2.0.9+dfsg1-1ubuntu1).
+libdbus-1-3:i386 est déjà la version la plus récente (1.12.12-1ubuntu1.1).
+libgnutls30:i386 est déjà la version la plus récente (3.6.5-2ubuntu1.1).
+libsqlite3-0:i386 est déjà la version la plus récente (3.27.2-2ubuntu0.1).
+Les paquets supplémentaires suivants seront installés : 
+  libldap-2.4-2
+Les paquets suivants seront mis à jour :
+  libldap-2.4-2 libldap-2.4-2:i386
+2 mis à jour, 0 nouvellement installés, 0 à enlever et 1 non mis à jour.
+Il est nécessaire de prendre 322 ko dans les archives.
+Après cette opération, 0 o d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main i386 libldap-2.4-2 i386 2.4.47+dfsg-3ubuntu2.2 [167 kB]
+Réception de :2 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libldap-2.4-2 amd64 2.4.47+dfsg-3ubuntu2.2 [155 kB]
+322 ko réceptionnés en 0s (651 ko/s)
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 186128 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../libldap-2.4-2_2.4.47+dfsg-3ubuntu2.2_i386.deb ...
+Déconfiguration de libldap-2.4-2:amd64 (2.4.47+dfsg-3ubuntu2.1) ...
+Dépaquetage de libldap-2.4-2:i386 (2.4.47+dfsg-3ubuntu2.2) sur (2.4.47+dfsg-3ubuntu2.1) ...
+Préparation du dépaquetage de .../libldap-2.4-2_2.4.47+dfsg-3ubuntu2.2_amd64.deb ...
+Dépaquetage de libldap-2.4-2:amd64 (2.4.47+dfsg-3ubuntu2.2) sur (2.4.47+dfsg-3ubuntu2.1) ...
+Paramétrage de libldap-2.4-2:amd64 (2.4.47+dfsg-3ubuntu2.2) ...
+Paramétrage de libldap-2.4-2:i386 (2.4.47+dfsg-3ubuntu2.2) ...
+Traitement des actions différées (« triggers ») pour libc-bin (2.29-0ubuntu2) ...
+vm.swappiness=5
+vm.vfs_cache_pressure=50
+vm.swappiness = 5
+vm.vfs_cache_pressure = 50
+swapoff /swapfile
+swapon /swapfile
+Atteint :1 http://repo.steampowered.com/steam precise InRelease
+Atteint :2 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :3 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :4 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :6 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :7 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+1 paquet peut être mis à jour. Exécutez « apt list --upgradable » pour le voir.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Calcul de la mise à jour…
+Les paquets suivants seront mis à jour :
+  libldap-common
+1 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Il est nécessaire de prendre 16,8 ko dans les archives.
+Après cette opération, 0 o d'espace disque supplémentaires seront utilisés.
+Souhaitez-vous continuer ? [O/n] Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libldap-common all 2.4.47+dfsg-3ubuntu2.2 [16,8 kB]
+16,8 ko réceptionnés en 0s (136 ko/s)
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 186128 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../libldap-common_2.4.47+dfsg-3ubuntu2.2_all.deb ...
+Dépaquetage de libldap-common (2.4.47+dfsg-3ubuntu2.2) sur (2.4.47+dfsg-3ubuntu2.1) ...
+Paramétrage de libldap-common (2.4.47+dfsg-3ubuntu2.2) ...
+Traitement des actions différées (« triggers ») pour man-db (2.8.5-2) ...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+dconf-editor est déjà la version la plus récente (3.32.0-1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+klavaro est déjà la version la plus récente (3.03-2).
+qbittorrent est déjà la version la plus récente (4.1.5-1).
+synaptic est déjà la version la plus récente (0.84.5).
+vim est déjà la version la plus récente (2:8.1.0320-1ubuntu3.1).
+libreoffice est déjà la version la plus récente (1:6.2.6-0ubuntu0.19.04.1).
+vlc est déjà la version la plus récente (3.0.7.1-0ubuntu19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Exécuter la configuration du point d'accroche du paquet Snap "core"                                                                                                                                        /[0m[?25h[KLecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+eclipse-titan est déjà la version la plus récente (6.5.0-1ubuntu1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+steam-launcher est déjà la version la plus récente (1.0.0.61).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://repo.steampowered.com/steam precise InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :4 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :6 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Atteint :7 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Lecture des listes de paquets…
+Atteint :1 http://repo.steampowered.com/steam precise InRelease
+Atteint :2 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :3 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :6 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Atteint :7 http://security.ubuntu.com/ubuntu disco-security InRelease
+Lecture des listes de paquets…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+lutris est déjà la version la plus récente (0.5.2.2).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+OK
+Atteint :1 http://repo.steampowered.com/steam precise InRelease
+Atteint :2 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :3 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :6 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :7 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Lecture des listes de paquets…
+Atteint :1 http://repo.steampowered.com/steam precise InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :4 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :6 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :7 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Tous les paquets sont à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+wine-stable est déjà la version la plus récente (4.0.2~disco).
+wine-stable-amd64 est déjà la version la plus récente (4.0.2~disco).
+winehq-stable est déjà la version la plus récente (4.0.2~disco).
+wine-stable-i386:i386 est déjà la version la plus récente (4.0.2~disco).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+libasound2-plugins:i386 est déjà la version la plus récente (1.1.8-1ubuntu1).
+libfreetype6:i386 est déjà la version la plus récente (2.9.1-3).
+libgpg-error0:i386 est déjà la version la plus récente (1.35-1).
+libxml2:i386 est déjà la version la plus récente (2.9.4+dfsg1-7ubuntu3).
+libsdl2-2.0-0:i386 est déjà la version la plus récente (2.0.9+dfsg1-1ubuntu1).
+libdbus-1-3:i386 est déjà la version la plus récente (1.12.12-1ubuntu1.1).
+libgnutls30:i386 est déjà la version la plus récente (3.6.5-2ubuntu1.1).
+libldap-2.4-2:i386 est déjà la version la plus récente (2.4.47+dfsg-3ubuntu2.2).
+libsqlite3-0:i386 est déjà la version la plus récente (3.27.2-2ubuntu0.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+vm.swappiness=5
+vm.vfs_cache_pressure=50
+vm.swappiness = 5
+vm.vfs_cache_pressure = 50
+swapoff /swapfile
+swapon /swapfile
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://repo.steampowered.com/steam precise InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 https://dl.winehq.org/wine-builds/ubuntu disco InRelease
+Atteint :6 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :7 http://security.ubuntu.com/ubuntu disco-security InRelease
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Tous les paquets sont à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Calcul de la mise à jour…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+dconf-editor est déjà la version la plus récente (3.32.0-1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+klavaro est déjà la version la plus récente (3.03-2).
+qbittorrent est déjà la version la plus récente (4.1.5-1).
+synaptic est déjà la version la plus récente (0.84.5).
+vim est déjà la version la plus récente (2:8.1.0320-1ubuntu3.1).
+libreoffice est déjà la version la plus récente (1:6.2.6-0ubuntu0.19.04.1).
+vlc est déjà la version la plus récente (3.0.8-0ubuntu19.04.1).
+Les paquets suivants ont été installés automatiquement et ne sont plus nécessaires :
+  ca-certificates-java libatk-wrapper-java libatk-wrapper-java-jni
+Veuillez utiliser « sudo apt autoremove » pour les supprimer.
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+Les paquets supplémentaires suivants seront installés : 
+  default-jdk default-jdk-headless default-jre default-jre-headless
+  icu-devtools libice-dev libicu-dev libpcap-dev libpcap0.8-dev libpcre16-3
+  libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev libsctp-dev
+  libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev libxdmcp-dev
+  libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre
+  openjdk-11-jre-headless x11proto-core-dev x11proto-dev xorg-sgml-doctools
+  xtrans-dev
+Paquets suggérés :
+  libice-doc icu-doc lksctp-tools libsm-doc libssl-doc libx11-doc libxcb-doc
+  pkg-config libxt-doc openjdk-11-demo openjdk-11-source visualvm
+  fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  | fonts-wqy-zenhei
+Les NOUVEAUX paquets suivants seront installés :
+  default-jdk default-jdk-headless default-jre default-jre-headless
+  eclipse-titan icu-devtools libice-dev libicu-dev libpcap-dev libpcap0.8-dev
+  libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libsctp-dev libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev
+  libxdmcp-dev libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless
+  openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+0 mis à jour, 33 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Il est nécessaire de prendre 279 Mo dans les archives.
+Après cette opération, 562 Mo d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jre-headless amd64 11.0.4+11-1ubuntu2~19.04 [37,2 MB]
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+flatpak est déjà la version la plus récente (1.2.4-1).
+Les paquets suivants ont été installés automatiquement et ne sont plus nécessaires :
+  ca-certificates-java libatk-wrapper-java libatk-wrapper-java-jni
+Veuillez utiliser « sudo apt autoremove » pour les supprimer.
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+gnome-software-plugin-flatpak est déjà la version la plus récente (3.30.6-2ubuntu4.19.04.1).
+Les paquets suivants ont été installés automatiquement et ne sont plus nécessaires :
+  ca-certificates-java libatk-wrapper-java libatk-wrapper-java-jni
+Veuillez utiliser « sudo apt autoremove » pour les supprimer.
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+dconf-editor est déjà la version la plus récente (3.32.0-1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+klavaro est déjà la version la plus récente (3.03-2).
+qbittorrent est déjà la version la plus récente (4.1.5-1).
+synaptic est déjà la version la plus récente (0.84.5).
+vim est déjà la version la plus récente (2:8.1.0320-1ubuntu3.1).
+libreoffice est déjà la version la plus récente (1:6.2.6-0ubuntu0.19.04.1).
+vlc est déjà la version la plus récente (3.0.8-0ubuntu19.04.1).
+Les paquets suivants ont été installés automatiquement et ne sont plus nécessaires :
+  ca-certificates-java libatk-wrapper-java libatk-wrapper-java-jni
+Veuillez utiliser « sudo apt autoremove » pour les supprimer.
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+Les paquets supplémentaires suivants seront installés : 
+  default-jdk default-jdk-headless default-jre default-jre-headless
+  icu-devtools libice-dev libicu-dev libpcap-dev libpcap0.8-dev libpcre16-3
+  libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev libsctp-dev
+  libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev libxdmcp-dev
+  libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre
+  openjdk-11-jre-headless x11proto-core-dev x11proto-dev xorg-sgml-doctools
+  xtrans-dev
+Paquets suggérés :
+  libice-doc icu-doc lksctp-tools libsm-doc libssl-doc libx11-doc libxcb-doc
+  pkg-config libxt-doc openjdk-11-demo openjdk-11-source visualvm
+  fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  | fonts-wqy-zenhei
+Les NOUVEAUX paquets suivants seront installés :
+  default-jdk default-jdk-headless default-jre default-jre-headless
+  eclipse-titan icu-devtools libice-dev libicu-dev libpcap-dev libpcap0.8-dev
+  libpcre16-3 libpcre3-dev libpcre32-3 libpcrecpp0v5 libpthread-stubs0-dev
+  libsctp-dev libsctp1 libsm-dev libssl-dev libx11-dev libxau-dev libxcb1-dev
+  libxdmcp-dev libxml2-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless
+  openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev
+  xorg-sgml-doctools xtrans-dev
+0 mis à jour, 33 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Il est nécessaire de prendre 279 Mo dans les archives.
+Après cette opération, 562 Mo d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jre-headless amd64 11.0.4+11-1ubuntu2~19.04 [37,2 MB]
+Réception de :2 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jre-headless amd64 2:1.11-71 [3 188 B]
+Réception de :3 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jre amd64 11.0.4+11-1ubuntu2~19.04 [34,5 kB]
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jre amd64 2:1.11-71 [1 084 B]
+Réception de :5 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jdk-headless amd64 11.0.4+11-1ubuntu2~19.04 [213 MB]
+Réception de :5 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jdk-headless amd64 11.0.4+11-1ubuntu2~19.04 [213 MB]
+Réception de :6 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jdk-headless amd64 2:1.11-71 [1 144 B]
+Réception de :7 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 openjdk-11-jdk amd64 11.0.4+11-1ubuntu2~19.04 [2 182 kB]
+Réception de :8 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 default-jdk amd64 2:1.11-71 [1 096 B]
+Réception de :9 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcap0.8-dev amd64 1.8.1-6ubuntu1 [217 kB]
+Réception de :10 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcap-dev amd64 1.8.1-6ubuntu1 [3 480 B]
+Réception de :11 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcre16-3 amd64 2:8.39-12 [149 kB]
+Réception de :12 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcre32-3 amd64 2:8.39-12 [140 kB]
+Réception de :13 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcrecpp0v5 amd64 2:8.39-12 [15,4 kB]
+Réception de :14 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpcre3-dev amd64 2:8.39-12 [542 kB]
+Réception de :15 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libsctp1 amd64 1.0.18+dfsg-1 [7 876 B]
+Réception de :16 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libsctp-dev amd64 1.0.18+dfsg-1 [59,8 kB]
+Réception de :17 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libssl-dev amd64 1.1.1b-1ubuntu2.1 [1 572 kB]
+Réception de :18 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 icu-devtools amd64 63.1-6 [180 kB]
+Réception de :19 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libicu-dev amd64 63.1-6 [9 175 kB]
+Réception de :20 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxml2-dev amd64 2.9.4+dfsg1-7ubuntu3 [719 kB]
+Réception de :21 http://fr.archive.ubuntu.com/ubuntu disco/universe amd64 eclipse-titan amd64 6.5.0-1ubuntu1 [11,9 MB]
+Réception de :22 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 xorg-sgml-doctools all 1:1.11-1 [12,9 kB]
+Réception de :23 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 x11proto-dev all 2018.4-4 [251 kB]
+Réception de :24 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 x11proto-core-dev all 2018.4-4 [2 620 B]
+Réception de :25 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libice-dev amd64 2:1.0.9-2 [46,8 kB]
+Réception de :26 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libpthread-stubs0-dev amd64 0.4-1 [5 384 B]
+Réception de :27 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libsm-dev amd64 2:1.2.3-1 [17,0 kB]
+Réception de :28 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxau-dev amd64 1:1.0.8-1 [11,1 kB]
+Réception de :29 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxdmcp-dev amd64 1:1.1.2-3 [25,1 kB]
+Réception de :30 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 xtrans-dev all 1.3.5-1 [70,5 kB]
+Réception de :31 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxcb1-dev amd64 1.13.1-2 [79,9 kB]
+Réception de :32 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libx11-dev amd64 2:1.6.7-1 [644 kB]
+Réception de :33 http://fr.archive.ubuntu.com/ubuntu disco/main amd64 libxt-dev amd64 1:1.1.5-1 [395 kB]
+80,0 Mo réceptionnés en 4min 19s (309 ko/s)
+Sélection du paquet openjdk-11-jre-headless:amd64 précédemment désélectionné.
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 210314 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../00-openjdk-11-jre-headless_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jre-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jre-headless précédemment désélectionné.
+Préparation du dépaquetage de .../01-default-jre-headless_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jre-headless (2:1.11-71) ...
+Sélection du paquet openjdk-11-jre:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../02-openjdk-11-jre_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jre:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jre précédemment désélectionné.
+Préparation du dépaquetage de .../03-default-jre_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jre (2:1.11-71) ...
+Sélection du paquet openjdk-11-jdk-headless:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../04-openjdk-11-jdk-headless_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jdk-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jdk-headless précédemment désélectionné.
+Préparation du dépaquetage de .../05-default-jdk-headless_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jdk-headless (2:1.11-71) ...
+Sélection du paquet openjdk-11-jdk:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../06-openjdk-11-jdk_11.0.4+11-1ubuntu2~19.04_amd64.deb ...
+Dépaquetage de openjdk-11-jdk:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Sélection du paquet default-jdk précédemment désélectionné.
+Préparation du dépaquetage de .../07-default-jdk_2%3a1.11-71_amd64.deb ...
+Dépaquetage de default-jdk (2:1.11-71) ...
+Sélection du paquet libpcap0.8-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../08-libpcap0.8-dev_1.8.1-6ubuntu1_amd64.deb ...
+Dépaquetage de libpcap0.8-dev:amd64 (1.8.1-6ubuntu1) ...
+Sélection du paquet libpcap-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../09-libpcap-dev_1.8.1-6ubuntu1_amd64.deb ...
+Dépaquetage de libpcap-dev:amd64 (1.8.1-6ubuntu1) ...
+Sélection du paquet libpcre16-3:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../10-libpcre16-3_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcre16-3:amd64 (2:8.39-12) ...
+Sélection du paquet libpcre32-3:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../11-libpcre32-3_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcre32-3:amd64 (2:8.39-12) ...
+Sélection du paquet libpcrecpp0v5:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../12-libpcrecpp0v5_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcrecpp0v5:amd64 (2:8.39-12) ...
+Sélection du paquet libpcre3-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../13-libpcre3-dev_2%3a8.39-12_amd64.deb ...
+Dépaquetage de libpcre3-dev:amd64 (2:8.39-12) ...
+Sélection du paquet libsctp1:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../14-libsctp1_1.0.18+dfsg-1_amd64.deb ...
+Dépaquetage de libsctp1:amd64 (1.0.18+dfsg-1) ...
+Sélection du paquet libsctp-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../15-libsctp-dev_1.0.18+dfsg-1_amd64.deb ...
+Dépaquetage de libsctp-dev:amd64 (1.0.18+dfsg-1) ...
+Sélection du paquet libssl-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../16-libssl-dev_1.1.1b-1ubuntu2.1_amd64.deb ...
+Dépaquetage de libssl-dev:amd64 (1.1.1b-1ubuntu2.1) ...
+Sélection du paquet icu-devtools précédemment désélectionné.
+Préparation du dépaquetage de .../17-icu-devtools_63.1-6_amd64.deb ...
+Dépaquetage de icu-devtools (63.1-6) ...
+Sélection du paquet libicu-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../18-libicu-dev_63.1-6_amd64.deb ...
+Dépaquetage de libicu-dev:amd64 (63.1-6) ...
+Sélection du paquet libxml2-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../19-libxml2-dev_2.9.4+dfsg1-7ubuntu3_amd64.deb ...
+Dépaquetage de libxml2-dev:amd64 (2.9.4+dfsg1-7ubuntu3) ...
+Sélection du paquet eclipse-titan précédemment désélectionné.
+Préparation du dépaquetage de .../20-eclipse-titan_6.5.0-1ubuntu1_amd64.deb ...
+Dépaquetage de eclipse-titan (6.5.0-1ubuntu1) ...
+Sélection du paquet xorg-sgml-doctools précédemment désélectionné.
+Préparation du dépaquetage de .../21-xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Dépaquetage de xorg-sgml-doctools (1:1.11-1) ...
+Sélection du paquet x11proto-dev précédemment désélectionné.
+Préparation du dépaquetage de .../22-x11proto-dev_2018.4-4_all.deb ...
+Dépaquetage de x11proto-dev (2018.4-4) ...
+Sélection du paquet x11proto-core-dev précédemment désélectionné.
+Préparation du dépaquetage de .../23-x11proto-core-dev_2018.4-4_all.deb ...
+Dépaquetage de x11proto-core-dev (2018.4-4) ...
+Sélection du paquet libice-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../24-libice-dev_2%3a1.0.9-2_amd64.deb ...
+Dépaquetage de libice-dev:amd64 (2:1.0.9-2) ...
+Sélection du paquet libpthread-stubs0-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../25-libpthread-stubs0-dev_0.4-1_amd64.deb ...
+Dépaquetage de libpthread-stubs0-dev:amd64 (0.4-1) ...
+Sélection du paquet libsm-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../26-libsm-dev_2%3a1.2.3-1_amd64.deb ...
+Dépaquetage de libsm-dev:amd64 (2:1.2.3-1) ...
+Sélection du paquet libxau-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../27-libxau-dev_1%3a1.0.8-1_amd64.deb ...
+Dépaquetage de libxau-dev:amd64 (1:1.0.8-1) ...
+Sélection du paquet libxdmcp-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../28-libxdmcp-dev_1%3a1.1.2-3_amd64.deb ...
+Dépaquetage de libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Sélection du paquet xtrans-dev précédemment désélectionné.
+Préparation du dépaquetage de .../29-xtrans-dev_1.3.5-1_all.deb ...
+Dépaquetage de xtrans-dev (1.3.5-1) ...
+Sélection du paquet libxcb1-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../30-libxcb1-dev_1.13.1-2_amd64.deb ...
+Dépaquetage de libxcb1-dev:amd64 (1.13.1-2) ...
+Sélection du paquet libx11-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../31-libx11-dev_2%3a1.6.7-1_amd64.deb ...
+Dépaquetage de libx11-dev:amd64 (2:1.6.7-1) ...
+Sélection du paquet libxt-dev:amd64 précédemment désélectionné.
+Préparation du dépaquetage de .../32-libxt-dev_1%3a1.1.5-1_amd64.deb ...
+Dépaquetage de libxt-dev:amd64 (1:1.1.5-1) ...
+Paramétrage de libpcrecpp0v5:amd64 (2:8.39-12) ...
+Paramétrage de libpcre16-3:amd64 (2:8.39-12) ...
+Paramétrage de libpcap0.8-dev:amd64 (1.8.1-6ubuntu1) ...
+Paramétrage de openjdk-11-jre-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid » pour fournir « /usr/bin/rmid » (rmid) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/java » pour fournir « /usr/bin/java » (java) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool » pour fournir « /usr/bin/keytool » (keytool) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs » pour fournir « /usr/bin/jjs » (jjs) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 » pour fournir « /usr/bin/pack200 » (pack200) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry » pour fournir « /usr/bin/rmiregistry » (rmiregistry) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 » pour fournir « /usr/bin/unpack200 » (unpack200) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec » pour fournir « /usr/bin/jexec » (jexec) en mode automatique
+Paramétrage de openjdk-11-jre:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+Paramétrage de openjdk-11-jdk-headless:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jar » pour fournir « /usr/bin/jar » (jar) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jarsigner » pour fournir « /usr/bin/jarsigner » (jarsigner) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/javac » pour fournir « /usr/bin/javac » (javac) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc » pour fournir « /usr/bin/javadoc » (javadoc) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/javap » pour fournir « /usr/bin/javap » (javap) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jcmd » pour fournir « /usr/bin/jcmd » (jcmd) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jdb » pour fournir « /usr/bin/jdb » (jdb) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeprscan » pour fournir « /usr/bin/jdeprscan » (jdeprscan) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeps » pour fournir « /usr/bin/jdeps » (jdeps) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jimage » pour fournir « /usr/bin/jimage » (jimage) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jinfo » pour fournir « /usr/bin/jinfo » (jinfo) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jlink » pour fournir « /usr/bin/jlink » (jlink) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jmap » pour fournir « /usr/bin/jmap » (jmap) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jmod » pour fournir « /usr/bin/jmod » (jmod) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jps » pour fournir « /usr/bin/jps » (jps) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jrunscript » pour fournir « /usr/bin/jrunscript » (jrunscript) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jshell » pour fournir « /usr/bin/jshell » (jshell) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jstack » pour fournir « /usr/bin/jstack » (jstack) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jstat » pour fournir « /usr/bin/jstat » (jstat) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jstatd » pour fournir « /usr/bin/jstatd » (jstatd) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/rmic » pour fournir « /usr/bin/rmic » (rmic) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/serialver » pour fournir « /usr/bin/serialver » (serialver) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jaotc » pour fournir « /usr/bin/jaotc » (jaotc) en mode automatique
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jhsdb » pour fournir « /usr/bin/jhsdb » (jhsdb) en mode automatique
+Paramétrage de libpthread-stubs0-dev:amd64 (0.4-1) ...
+Paramétrage de xtrans-dev (1.3.5-1) ...
+Paramétrage de libssl-dev:amd64 (1.1.1b-1ubuntu2.1) ...
+Paramétrage de libpcre32-3:amd64 (2:8.39-12) ...
+Paramétrage de icu-devtools (63.1-6) ...
+Paramétrage de libsctp1:amd64 (1.0.18+dfsg-1) ...
+Paramétrage de openjdk-11-jdk:amd64 (11.0.4+11-1ubuntu2~19.04) ...
+update-alternatives: utilisation de « /usr/lib/jvm/java-11-openjdk-amd64/bin/jconsole » pour fournir « /usr/bin/jconsole » (jconsole) en mode automatique
+Paramétrage de xorg-sgml-doctools (1:1.11-1) ...
+Paramétrage de libicu-dev:amd64 (63.1-6) ...
+Paramétrage de libpcap-dev:amd64 (1.8.1-6ubuntu1) ...
+Paramétrage de default-jre-headless (2:1.11-71) ...
+Paramétrage de libpcre3-dev:amd64 (2:8.39-12) ...
+Paramétrage de default-jre (2:1.11-71) ...
+Paramétrage de libxml2-dev:amd64 (2.9.4+dfsg1-7ubuntu3) ...
+Paramétrage de default-jdk-headless (2:1.11-71) ...
+Paramétrage de libsctp-dev:amd64 (1.0.18+dfsg-1) ...
+Paramétrage de default-jdk (2:1.11-71) ...
+Paramétrage de eclipse-titan (6.5.0-1ubuntu1) ...
+Traitement des actions différées (« triggers ») pour desktop-file-utils (0.23-4ubuntu1) ...
+Traitement des actions différées (« triggers ») pour mime-support (3.60ubuntu1) ...
+Traitement des actions différées (« triggers ») pour hicolor-icon-theme (0.17-2) ...
+Traitement des actions différées (« triggers ») pour gnome-menus (3.32.0-1ubuntu1) ...
+Traitement des actions différées (« triggers ») pour libc-bin (2.29-0ubuntu2) ...
+Traitement des actions différées (« triggers ») pour man-db (2.8.5-2) ...
+Traitement des actions différées (« triggers ») pour sgml-base (1.29) ...
+Paramétrage de x11proto-dev (2018.4-4) ...
+Paramétrage de libxau-dev:amd64 (1:1.0.8-1) ...
+Paramétrage de libice-dev:amd64 (2:1.0.9-2) ...
+Paramétrage de libsm-dev:amd64 (2:1.2.3-1) ...
+Paramétrage de libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Paramétrage de x11proto-core-dev (2018.4-4) ...
+Paramétrage de libxcb1-dev:amd64 (1.13.1-2) ...
+Paramétrage de libx11-dev:amd64 (2:1.6.7-1) ...
+Paramétrage de libxt-dev:amd64 (1:1.1.5-1) ...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Réception de :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease [15,9 kB]
+Réception de :3 http://security.ubuntu.com/ubuntu disco-security InRelease [97,5 kB]
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease [97,5 kB]
+Réception de :5 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco/main amd64 Packages [620 B]
+Réception de :6 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco/main i386 Packages [600 B]
+Réception de :7 http://security.ubuntu.com/ubuntu disco-security/universe amd64 c-n-f Metadata [5 936 B]
+Réception de :8 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease [88,8 kB]
+Réception de :9 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco/main Translation-en [344 B]
+Réception de :10 http://fr.archive.ubuntu.com/ubuntu disco-updates/main i386 Packages [225 kB]
+Réception de :11 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 Packages [266 kB]
+Réception de :12 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 DEP-11 Metadata [131 kB]
+Réception de :13 http://fr.archive.ubuntu.com/ubuntu disco-updates/main DEP-11 48x48 Icons [15,2 kB]
+Réception de :14 http://fr.archive.ubuntu.com/ubuntu disco-updates/main DEP-11 64x64 Icons [38,2 kB]
+Réception de :15 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 c-n-f Metadata [7 256 B]
+Réception de :16 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe i386 Packages [297 kB]
+Réception de :17 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 Packages [302 kB]
+Réception de :18 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 DEP-11 Metadata [62,1 kB]
+Réception de :19 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe DEP-11 48x48 Icons [32,6 kB]
+Réception de :20 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe DEP-11 64x64 Icons [96,1 kB]
+Réception de :21 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 c-n-f Metadata [7 320 B]
+Réception de :22 http://fr.archive.ubuntu.com/ubuntu disco-backports/universe amd64 DEP-11 Metadata [7 920 B]
+1 795 ko réceptionnés en 4s (434 ko/s)
+Lecture des listes de paquets…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Les paquets suivants seront mis à jour :
+  lutris
+1 mis à jour, 0 nouvellement installés, 0 à enlever et 6 non mis à jour.
+Il est nécessaire de prendre 1 754 ko dans les archives.
+Après cette opération, 130 ko d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco/main amd64 lutris amd64 0.5.3 [1 754 kB]
+1 754 ko réceptionnés en 1s (1 927 ko/s)
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 212542 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../lutris_0.5.3_amd64.deb ...
+Dépaquetage de lutris (0.5.3) sur (0.5.2.2) ...
+Paramétrage de lutris (0.5.3) ...
+Traitement des actions différées (« triggers ») pour mime-support (3.60ubuntu1) ...
+Traitement des actions différées (« triggers ») pour hicolor-icon-theme (0.17-2) ...
+Traitement des actions différées (« triggers ») pour gnome-menus (3.32.0-1ubuntu1) ...
+Traitement des actions différées (« triggers ») pour desktop-file-utils (0.23-4ubuntu1) ...
+Looking for matches…
+
+org.libreoffice.LibreOffice permissions:
+    ipc	network	pulseaudio	wayland
+    x11	dri	file access [1]	dbus access [2]
+    bus ownership [3]
+
+    [1] host, xdg-run/dconf
+    [2] ca.desrt.dconf, org.gtk.vfs.*
+    [3] org.libreoffice.LibreOfficeIpc0
+
+
+ 1.	   	org.libreoffice.LibreOffice	x86_64	stable	flathub	< 266,6 MB
+ 2.	   	org.libreoffice.LibreOffice.Locale	x86_64	stable	flathub	< 67,1 MB (partial)
+
+Proceed with these changes to the Default system installation? [Y/n]: n
+vm.swappiness=5
+vm.vfs_cache_pressure=50
+vm.swappiness = 5
+vm.vfs_cache_pressure = 50
+swapoff /swapfile
+swapon /swapfile
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :3 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :4 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+6 paquets peuvent être mis à jour. Exécutez « apt list --upgradable » pour les voir.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Calcul de la mise à jour…
+Les paquets suivants seront mis à jour :
+  libmm-glib0 libsane libsane:i386 libsane-common modemmanager sane-utils
+6 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Il est nécessaire de prendre 5 620 ko dans les archives.
+Après cette opération, 0 o d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main i386 libsane i386 1.0.27-3.2ubuntu1.1 [2 171 kB]
+Réception de :2 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libsane amd64 1.0.27-3.2ubuntu1.1 [2 080 kB]
+Réception de :3 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libsane-common all 1.0.27-3.2ubuntu1.1 [271 kB]
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 sane-utils amd64 1.0.27-3.2ubuntu1.1 [187 kB]
+Réception de :5 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libmm-glib0 amd64 1.10.0-1ubuntu0.19.04.1 [181 kB]
+Réception de :6 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 modemmanager amd64 1.10.0-1ubuntu0.19.04.1 [730 kB]
+Préconfiguration des paquets...
+5 620 ko réceptionnés en 4s (1 431 ko/s)
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 212544 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../0-libsane_1.0.27-3.2ubuntu1.1_amd64.deb ...
+Déconfiguration de libsane:i386 (1.0.27-3.2ubuntu1) ...
+Dépaquetage de libsane:amd64 (1.0.27-3.2ubuntu1.1) sur (1.0.27-3.2ubuntu1) ...
+Préparation du dépaquetage de .../1-libsane_1.0.27-3.2ubuntu1.1_i386.deb ...
+Dépaquetage de libsane:i386 (1.0.27-3.2ubuntu1.1) sur (1.0.27-3.2ubuntu1) ...
+Préparation du dépaquetage de .../2-libsane-common_1.0.27-3.2ubuntu1.1_all.deb ...
+Dépaquetage de libsane-common (1.0.27-3.2ubuntu1.1) sur (1.0.27-3.2ubuntu1) ...
+Préparation du dépaquetage de .../3-sane-utils_1.0.27-3.2ubuntu1.1_amd64.deb ...
+Dépaquetage de sane-utils (1.0.27-3.2ubuntu1.1) sur (1.0.27-3.2ubuntu1) ...
+Préparation du dépaquetage de .../4-libmm-glib0_1.10.0-1ubuntu0.19.04.1_amd64.deb ...
+Dépaquetage de libmm-glib0:amd64 (1.10.0-1ubuntu0.19.04.1) sur (1.10.0-1) ...
+Préparation du dépaquetage de .../5-modemmanager_1.10.0-1ubuntu0.19.04.1_amd64.deb ...
+Dépaquetage de modemmanager (1.10.0-1ubuntu0.19.04.1) sur (1.10.0-1) ...
+Paramétrage de libmm-glib0:amd64 (1.10.0-1ubuntu0.19.04.1) ...
+Paramétrage de modemmanager (1.10.0-1ubuntu0.19.04.1) ...
+Paramétrage de libsane-common (1.0.27-3.2ubuntu1.1) ...
+Paramétrage de libsane:amd64 (1.0.27-3.2ubuntu1.1) ...
+Paramétrage de libsane:i386 (1.0.27-3.2ubuntu1.1) ...
+Paramétrage de sane-utils (1.0.27-3.2ubuntu1.1) ...
+update-inetd: warning: cannot add service, /etc/inetd.conf does not exist
+Traitement des actions différées (« triggers ») pour libc-bin (2.29-0ubuntu2) ...
+Traitement des actions différées (« triggers ») pour systemd (240-6ubuntu5.7) ...
+Traitement des actions différées (« triggers ») pour man-db (2.8.5-2) ...
+Traitement des actions différées (« triggers ») pour dbus (1.12.12-1ubuntu1.1) ...
+Traitement des actions différées (« triggers ») pour udev (240-6ubuntu5.7) ...
+Traitement des actions différées (« triggers ») pour hicolor-icon-theme (0.17-2) ...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+flatpak est déjà la version la plus récente (1.2.4-1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+gnome-software-plugin-flatpak est déjà la version la plus récente (3.30.6-2ubuntu4.19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+dconf-editor est déjà la version la plus récente (3.32.0-1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+klavaro est déjà la version la plus récente (3.03-2).
+qbittorrent est déjà la version la plus récente (4.1.5-1).
+synaptic est déjà la version la plus récente (0.84.5).
+vim est déjà la version la plus récente (2:8.1.0320-1ubuntu3.1).
+libreoffice est déjà la version la plus récente (1:6.2.6-0ubuntu0.19.04.1).
+vlc est déjà la version la plus récente (3.0.8-0ubuntu19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+Looking for matches…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+eclipse-titan est déjà la version la plus récente (6.5.0-1ubuntu1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+
+com.jetbrains.IntelliJ-IDEA-Community permissions:
+    ipc	network	wayland	x11
+    dri	file access [1]	dbus access [2]
+
+    [1] host
+    [2] org.freedesktop.Flatpak, org.freedesktop.Notifications,
+        org.freedesktop.secrets
+
+
+ 1.	   	com.jetbrains.IntelliJ-IDEA-Community	x86_64	stable	flathub	< 680,7 MB
+
+Proceed with these changes to the Default system installation? [Y/n]: n
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :4 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+lutris est déjà la version la plus récente (0.5.3).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+
+org.libreoffice.LibreOffice permissions:
+    ipc	network	pulseaudio	wayland
+    x11	dri	file access [1]	dbus access [2]
+    bus ownership [3]
+
+    [1] host, xdg-run/dconf
+    [2] ca.desrt.dconf, org.gtk.vfs.*
+    [3] org.libreoffice.LibreOfficeIpc0
+
+
+ 1.	   	org.libreoffice.LibreOffice	x86_64	stable	flathub	< 266,6 MB
+ 2.	   	org.libreoffice.LibreOffice.Locale	x86_64	stable	flathub	< 67,1 MB (partial)
+
+Proceed with these changes to the Default system installation? [Y/n]: n
+vm.swappiness=5
+vm.vfs_cache_pressure=50
+vm.swappiness = 5
+vm.vfs_cache_pressure = 50
+swapoff /swapfile
+swapon /swapfile
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :3 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Tous les paquets sont à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Calcul de la mise à jour…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+flatpak est déjà la version la plus récente (1.2.4-1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+gnome-software-plugin-flatpak est déjà la version la plus récente (3.30.6-2ubuntu4.19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+synaptic est déjà la version la plus récente (0.84.5).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+Required runtime for org.qbittorrent.qBittorrent/x86_64/stable (runtime/org.kde.Platform/x86_64/5.12) found in remote flathub
+Do you want to install it? [Y/n]: n
+Looking for matches…
+Required runtime for ca.desrt.dconf-editor/x86_64/stable (runtime/org.gnome.Platform/x86_64/3.32) found in remote flathub
+Do you want to install it? [Y/n]: n
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+eclipse-titan est déjà la version la plus récente (6.5.0-1ubuntu1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+
+com.visualstudio.code permissions:
+    ipc	network	pulseaudio	ssh-auth
+    x11	dri	devel	file access [1]
+    dbus access [2]	tags [3]
+
+    [1] host, xdg-config/kdeglobals:ro
+    [2] com.canonical.AppMenu.Registrar, com.canonical.AppMenu.Registrar.*,
+        org.freedesktop.Flatpak, org.freedesktop.Notifications,
+        org.freedesktop.secrets
+    [3] proprietary
+
+com.jetbrains.IntelliJ-IDEA-Community permissions:
+    ipc	network	wayland	x11
+    dri	file access [1]	dbus access [2]
+
+    [1] host
+    [2] org.freedesktop.Flatpak, org.freedesktop.Notifications,
+        org.freedesktop.secrets
+
+
+ 1.	   	com.visualstudio.code	x86_64	stable	flathub	< 57,1 MB
+ 2.	   	com.jetbrains.IntelliJ-IDEA-Community	x86_64	stable	flathub	< 680,7 MB
+
+Proceed with these changes to the Default system installation? [Y/n]: n
+Looking for matches…
+Required runtime for com.valvesoftware.Steam/x86_64/stable (runtime/org.freedesktop.Platform/x86_64/19.08) found in remote flathub
+Do you want to install it? [Y/n]: n
+Atteint :1 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :2 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Atteint :5 http://security.ubuntu.com/ubuntu disco-security InRelease
+Lecture des listes de paquets…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :3 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+lutris est déjà la version la plus récente (0.5.3).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+
+org.libreoffice.LibreOffice permissions:
+    ipc	network	pulseaudio	wayland
+    x11	dri	file access [1]	dbus access [2]
+    bus ownership [3]
+
+    [1] host, xdg-run/dconf
+    [2] ca.desrt.dconf, org.gtk.vfs.*
+    [3] org.libreoffice.LibreOfficeIpc0
+
+
+ 1.	   	org.libreoffice.LibreOffice	x86_64	stable	flathub	< 266,6 MB
+ 2.	   	org.libreoffice.LibreOffice.Locale	x86_64	stable	flathub	< 67,1 MB (partial)
+
+Proceed with these changes to the Default system installation? [Y/n]: n
+vm.swappiness=5
+vm.vfs_cache_pressure=50
+vm.swappiness = 5
+vm.vfs_cache_pressure = 50
+swapoff /swapfile
+swapon /swapfile
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Calcul de la mise à jour…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.

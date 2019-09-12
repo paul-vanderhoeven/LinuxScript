@@ -1,0 +1,224 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+le snap "discord" est déjà installé, voir « snap help refresh »
+le snap "sublime-text" est déjà installé, voir « snap help refresh »
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+le snap "discord" est déjà installé, voir « snap help refresh »
+le snap "sublime-text" est déjà installé, voir « snap help refresh »
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+le snap "intellij-idea-community" est déjà installé, voir « snap help
+          refresh »
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+--2019-08-27 23:16:58--  https://dl.winehq.org/wine-builds/winehq.key
+Résolution de dl.winehq.org (dl.winehq.org)… 151.101.122.217
+Connexion à dl.winehq.org (dl.winehq.org)|151.101.122.217|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 3220 (3,1K) [application/pgp-keys]
+Enregistre : «winehq.key»
+
+     0K ...                                                   100% 2,50M=0,001s
+
+2019-08-27 23:16:58 (2,50 MB/s) - «winehq.key» enregistré [3220/3220]
+
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+ubuntu_config.sh: ligne 43 : printf: « . » : caractère de format non permis
+swapon: /swapfile : signature trouvée [pagesize=4096, signature=swap]
+swapon: /swapfile : taille de page : 4096, taille d'espace d'échange : 2147483648, taille de périphérique : 2147483648
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+le snap "discord" est déjà installé, voir « snap help refresh »
+le snap "sublime-text" est déjà installé, voir « snap help refresh »
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+le snap "intellij-idea-community" est déjà installé, voir « snap help
+          refresh »
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+--2019-08-27 23:19:47--  https://dl.winehq.org/wine-builds/winehq.key
+Résolution de dl.winehq.org (dl.winehq.org)… 151.101.122.217
+Connexion à dl.winehq.org (dl.winehq.org)|151.101.122.217|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 3220 (3,1K) [application/pgp-keys]
+Enregistre : «winehq.key»
+
+     0K ...                                                   100%  788K=0,004s
+
+2019-08-27 23:19:47 (788 KB/s) - «winehq.key» enregistré [3220/3220]
+
+Warning: apt-key output should not be parsed (stdout is not a terminal)
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+ubuntu_config.sh: ligne 43 : printf: « . » : caractère de format non permis
+swapon: /swapfile : signature trouvée [pagesize=4096, signature=swap]
+swapon: /swapfile : taille de page : 4096, taille d'espace d'échange : 2147483648, taille de périphérique : 2147483648
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+./ubuntu_config.sh: ligne 23: installFlatHubUbuntu : commande introuvable
+./ubuntu_config.sh: ligne 24: flatpakSetup : commande introuvable
+./ubuntu_config.sh: ligne 26: installStandardApps : commande introuvable
+./ubuntu_config.sh: ligne 27: installAppsDev : commande introuvable
+./ubuntu_config.sh: ligne 28: installSteamLutris : commande introuvable
+./ubuntu_config.sh: ligne 29: installMinecraft : commande introuvable
+./ubuntu_config.sh: ligne 31: changeSwap : commande introuvable
+./ubuntu_config.sh: ligne 32: changeGnomeSettings : commande introuvable
+./ubuntu_config.sh: ligne 33: updateAndClean : commande introuvable
+./ubuntu_config.sh: ligne 23: installFlatHubUbuntu : commande introuvable
+./ubuntu_config.sh: ligne 24: flatpakSetup : commande introuvable
+./ubuntu_config.sh: ligne 26: installStandardApps : commande introuvable
+./ubuntu_config.sh: ligne 27: installAppsDev : commande introuvable
+./ubuntu_config.sh: ligne 28: installSteamLutris : commande introuvable
+./ubuntu_config.sh: ligne 29: installMinecraft : commande introuvable
+./ubuntu_config.sh: ligne 31: changeSwap : commande introuvable
+./ubuntu_config.sh: ligne 32: changeGnomeSettings : commande introuvable
+./ubuntu_config.sh: ligne 33: updateAndClean : commande introuvable
+./ubuntu_config.sh: ligne 23: installFlatHubUbuntu : commande introuvable
+./ubuntu_config.sh: ligne 24: flatpakSetup : commande introuvable
+./ubuntu_config.sh: ligne 26: installStandardApps : commande introuvable
+./ubuntu_config.sh: ligne 27: installAppsDev : commande introuvable
+./ubuntu_config.sh: ligne 28: installSteamLutris : commande introuvable
+./ubuntu_config.sh: ligne 29: installMinecraft : commande introuvable
+./ubuntu_config.sh: ligne 31: changeSwap : commande introuvable
+./ubuntu_config.sh: ligne 32: changeGnomeSettings : commande introuvable
+./ubuntu_config.sh: ligne 33: updateAndClean : commande introuvable
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+./ubuntu_config.sh: ligne 112: snap : commande introuvable
+./ubuntu_config.sh: ligne 113: snap : commande introuvable
+./ubuntu_config.sh: ligne 114: snap : commande introuvable
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+./ubuntu_config.sh: ligne 112: snap : commande introuvable
+./ubuntu_config.sh: ligne 113: snap : commande introuvable
+./ubuntu_config.sh: ligne 114: snap : commande introuvable
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+./ubuntu_config.sh: ligne 102: snap : commande introuvable
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Impossible de trouver le paquet steam-launcher
+swapon: /swapfile : signature trouvée [pagesize=4096, signature=swap]
+swapon: /swapfile : taille de page : 4096, taille d'espace d'échange : 2147483648, taille de périphérique : 2147483648
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Skipping: com.discordapp.Discord/x86_64/stable is already installed
+Skipping: com.sublimetext.three/x86_64/stable is already installed
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Impossible de trouver le paquet steam-launcher
+swapon: /swapfile : signature trouvée [pagesize=4096, signature=swap]
+swapon: /swapfile : taille de page : 4096, taille d'espace d'échange : 2147483648, taille de périphérique : 2147483648
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Skipping: com.sublimetext.three/x86_64/stable is already installed
+Skipping: com.discordapp.Discord/x86_64/stable is already installed
+error: The application org.qbittorrent.qBittorrent/x86_64/stable requires the runtime org.kde.Platform/x86_64/5.12 which is not installed
+error: The application ca.desrt.dconf-editor/x86_64/stable requires the runtime org.gnome.Platform/x86_64/3.32 which is not installed
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+error: The application com.valvesoftware.Steam/x86_64/stable requires the runtime org.freedesktop.Platform/x86_64/19.08 which is not installed
+swapon: /swapfile : signature trouvée [pagesize=4096, signature=swap]
+swapon: /swapfile : taille de page : 4096, taille d'espace d'échange : 2147483648, taille de périphérique : 2147483648
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+

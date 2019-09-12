@@ -236,3 +236,56 @@ Skipping: com.discordapp.Discord/x86_64/stable is already installed
 
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
+./run.sh: ligne 23: installFlatpakUbuntu : commande introuvable
+./run.sh: ligne 24: flatpakSetup : commande introuvable
+./run.sh: ligne 26: installStandardApps : commande introuvable
+./run.sh: ligne 27: installAppsDev : commande introuvable
+./run.sh: ligne 28: installSteam : commande introuvable
+./run.sh: ligne 29: installLutris : commande introuvable
+./run.sh: ligne 30: installMinecraft : commande introuvable
+./run.sh: ligne 32: changeSwap : commande introuvable
+./run.sh: ligne 33: changeGnomeSettings : commande introuvable
+./run.sh: ligne 34: removeSnap : commande introuvable
+./run.sh: ligne 35: updateAndClean : commande introuvable
+./run.sh: ligne 23: installFlatpakUbuntu : commande introuvable
+./run.sh: ligne 24: flatpakSetup : commande introuvable
+./run.sh: ligne 26: installStandardApps : commande introuvable
+./run.sh: ligne 27: installAppsDev : commande introuvable
+./run.sh: ligne 28: installSteam : commande introuvable
+./run.sh: ligne 29: installLutris : commande introuvable
+./run.sh: ligne 30: installMinecraft : commande introuvable
+./run.sh: ligne 32: changeSwap : commande introuvable
+./run.sh: ligne 33: changeGnomeSettings : commande introuvable
+./run.sh: ligne 34: removeSnap : commande introuvable
+./run.sh: ligne 35: updateAndClean : commande introuvable
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+E: Impossible de trouver le paquet Klavaro
+Skipping: com.sublimetext.three/x86_64/stable is already installed
+Skipping: com.discordapp.Discord/x86_64/stable is already installed
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+error: Failed to install com.visualstudio.code: While downloading http://packages.microsoft.com/repos/vscode/pool/main/c/code/code_1.38.0-1567547996_amd64.deb: Socket I/O timed out
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Skipping: com.mojang.Minecraft/x86_64/stable is already installed
+swapon: /swapfile : signature trouvée [pagesize=4096, signature=swap]
+swapon: /swapfile : taille de page : 4096, taille d'espace d'échange : 2147483648, taille de périphérique : 2147483648
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+

@@ -1451,4 +1451,149 @@ ca.desrt.dconf-editor permissions:
 
 
 Installing 1/7…                                                                 Installing 1/7… ▌                      3%[?25hLecture des listes de paquets…
+Construction de l'arbre des dépendances…Lecture des listes de paquets…
 Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+flatpak est déjà la version la plus récente (1.2.4-1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+gnome-software-plugin-flatpak est déjà la version la plus récente (3.30.6-2ubuntu4.19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Looking for matches…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+git est déjà la version la plus récente (1:2.20.1-2ubuntu1).
+eclipse-titan est déjà la version la plus récente (6.5.0-1ubuntu1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+
+com.visualstudio.code permissions:
+    ipc	network	pulseaudio	ssh-auth
+    x11	dri	devel	file access [1]
+    dbus access [2]	tags [3]
+
+    [1] host, xdg-config/kdeglobals:ro
+    [2] com.canonical.AppMenu.Registrar, com.canonical.AppMenu.Registrar.*,
+        org.freedesktop.Flatpak, org.freedesktop.Notifications,
+        org.freedesktop.secrets
+    [3] proprietary
+
+com.jetbrains.IntelliJ-IDEA-Community permissions:
+    ipc	network	wayland	x11
+    dri	file access [1]	dbus access [2]
+
+    [1] host
+    [2] org.freedesktop.Flatpak, org.freedesktop.Notifications,
+        org.freedesktop.secrets
+
+
+ 1.	   	com.visualstudio.code	x86_64	stable	flathub	< 57,1 MB
+ 2.	   	com.jetbrains.IntelliJ-IDEA-Community	x86_64	stable	flathub	< 680,7 MB
+
+
+Installing 1/2…                                                                        Installing 1/2… ▍                      2%Installing 1/2… █▌                     8%Installing 1/2… █▌                     8%  29,8 kB/sInstalling 1/2… █▌                     8%  177,0 kB/sInstalling 1/2… █▌                     8%  245,0 kB/sInstalling 1/2… ██▏                   11%  1,1 MB/sInstalling 1/2… ██▊                   14%  1,3 MB/sInstalling 1/2… ███▌                  18%  1,6 MB/s  00:18Installing 1/2… ████▍                 22%  1,7 MB/s  00:17Installing 1/2… █████▏                26%  1,9 MB/s  00:17Installing 1/2… ██████                30%  1,9 MB/s  00:16Installing 1/2… ██████▊               34%  2,0 MB/s  00:15Installing 1/2… ███████▌              38%  2,1 MB/s  00:14Installing 1/2… ████████▍             42%  2,1 MB/s  00:13Installing 1/2… █████████▏            46%  2,1 MB/s  00:12Installing 1/2… █████████▊            49%  350,1 kB/s  01:14Installing 1/2… █████████▊            49%  350,1 kB/s  01:14Error: While downloading http://packages.microsoft.com/repos/vscode/pool/main/c/code/code_1.38.0-1567547996_amd64.deb: Socket I/O timed out
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+steam-installer est déjà la version la plus récente (1.0.0.54+repack-5ubuntu1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Réception de :2 http://security.ubuntu.com/ubuntu disco-security InRelease [97,5 kB]
+Atteint :3 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease [97,5 kB]
+Réception de :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease [88,8 kB]
+Réception de :6 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 Packages [268 kB]
+Réception de :7 http://security.ubuntu.com/ubuntu disco-security/main amd64 DEP-11 Metadata [33,9 kB]
+Réception de :8 http://security.ubuntu.com/ubuntu disco-security/main DEP-11 48x48 Icons [8 742 B]
+Réception de :9 http://fr.archive.ubuntu.com/ubuntu disco-updates/main i386 Packages [226 kB]
+Réception de :10 http://security.ubuntu.com/ubuntu disco-security/main DEP-11 64x64 Icons [21,4 kB]
+Réception de :11 http://security.ubuntu.com/ubuntu disco-security/universe amd64 DEP-11 Metadata [17,4 kB]
+Réception de :12 http://fr.archive.ubuntu.com/ubuntu disco-updates/main Translation-en [102 kB]
+Réception de :13 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 DEP-11 Metadata [131 kB]
+Réception de :14 http://security.ubuntu.com/ubuntu disco-security/universe DEP-11 48x48 Icons [14,3 kB]
+Réception de :15 http://security.ubuntu.com/ubuntu disco-security/universe DEP-11 64x64 Icons [44,7 kB]
+Réception de :16 http://fr.archive.ubuntu.com/ubuntu disco-updates/main DEP-11 48x48 Icons [15,2 kB]
+Réception de :17 http://fr.archive.ubuntu.com/ubuntu disco-updates/main DEP-11 64x64 Icons [38,2 kB]
+Réception de :18 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 c-n-f Metadata [7 396 B]
+Réception de :19 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 Packages [302 kB]
+Réception de :20 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe i386 Packages [298 kB]
+Réception de :21 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe Translation-en [101 kB]
+Réception de :22 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 DEP-11 Metadata [62,1 kB]
+Réception de :23 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe DEP-11 48x48 Icons [32,6 kB]
+Réception de :24 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe DEP-11 64x64 Icons [93,0 kB]
+Réception de :25 http://fr.archive.ubuntu.com/ubuntu disco-updates/universe amd64 c-n-f Metadata [7 352 B]
+Réception de :26 http://fr.archive.ubuntu.com/ubuntu disco-backports/universe amd64 DEP-11 Metadata [7 924 B]
+2 117 ko réceptionnés en 4s (595 ko/s)
+Lecture des listes de paquets…
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu disco InRelease
+Atteint :2 http://security.ubuntu.com/ubuntu disco-security InRelease
+Atteint :3 http://ppa.launchpad.net/lutris-team/lutris/ubuntu disco InRelease
+Atteint :4 http://fr.archive.ubuntu.com/ubuntu disco-updates InRelease
+Atteint :5 http://fr.archive.ubuntu.com/ubuntu disco-backports InRelease
+Lecture des listes de paquets…
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+lutris est déjà la version la plus récente (0.5.3).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 7 non mis à jour.
+vm.swappiness=5
+vm.vfs_cache_pressure=50
+vm.swappiness = 5
+vm.vfs_cache_pressure = 50
+swapoff /swapfile
+swapon /swapfile
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+Calcul de la mise à jour…
+Les paquets suivants seront mis à jour :
+  apt apt-utils libapt-inst2.0 libapt-pkg5.0 libsnmp-base libsnmp30
+  libsnmp30:i386
+7 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Il est nécessaire de prendre 4 465 ko dans les archives.
+Après cette opération, 74,8 ko d'espace disque supplémentaires seront utilisés.
+Réception de :1 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libapt-pkg5.0 amd64 1.8.3 [821 kB]
+Réception de :2 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libapt-inst2.0 amd64 1.8.3 [56,7 kB]
+Réception de :3 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 apt amd64 1.8.3 [1 273 kB]
+Réception de :4 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 apt-utils amd64 1.8.3 [205 kB]
+Réception de :5 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libsnmp-base all 5.7.3+dfsg-5ubuntu1.2 [224 kB]
+Réception de :6 http://fr.archive.ubuntu.com/ubuntu disco-updates/main i386 libsnmp30 i386 5.7.3+dfsg-5ubuntu1.2 [945 kB]
+Réception de :7 http://fr.archive.ubuntu.com/ubuntu disco-updates/main amd64 libsnmp30 amd64 5.7.3+dfsg-5ubuntu1.2 [940 kB]
+4 465 ko réceptionnés en 2s (2 183 ko/s)
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 212544 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../libapt-pkg5.0_1.8.3_amd64.deb ...
+Dépaquetage de libapt-pkg5.0:amd64 (1.8.3) sur (1.8.1) ...
+Paramétrage de libapt-pkg5.0:amd64 (1.8.3) ...
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 212544 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../libapt-inst2.0_1.8.3_amd64.deb ...
+Dépaquetage de libapt-inst2.0:amd64 (1.8.3) sur (1.8.1) ...
+Préparation du dépaquetage de .../archives/apt_1.8.3_amd64.deb ...
+Dépaquetage de apt (1.8.3) sur (1.8.1) ...
+Paramétrage de apt (1.8.3) ...
+(Lecture de la base de données... (Lecture de la base de données... 5%(Lecture de la base de données... 10%(Lecture de la base de données... 15%(Lecture de la base de données... 20%(Lecture de la base de données... 25%(Lecture de la base de données... 30%(Lecture de la base de données... 35%(Lecture de la base de données... 40%(Lecture de la base de données... 45%(Lecture de la base de données... 50%(Lecture de la base de données... 55%(Lecture de la base de données... 60%(Lecture de la base de données... 65%(Lecture de la base de données... 70%(Lecture de la base de données... 75%(Lecture de la base de données... 80%(Lecture de la base de données... 85%(Lecture de la base de données... 90%(Lecture de la base de données... 95%(Lecture de la base de données... 100%(Lecture de la base de données... 212555 fichiers et répertoires déjà installés.)
+Préparation du dépaquetage de .../apt-utils_1.8.3_amd64.deb ...
+Dépaquetage de apt-utils (1.8.3) sur (1.8.1) ...
+Préparation du dépaquetage de .../libsnmp-base_5.7.3+dfsg-5ubuntu1.2_all.deb ...
+Dépaquetage de libsnmp-base (5.7.3+dfsg-5ubuntu1.2) sur (5.7.3+dfsg-5ubuntu1) ...
+Préparation du dépaquetage de .../libsnmp30_5.7.3+dfsg-5ubuntu1.2_i386.deb ...
+Déconfiguration de libsnmp30:amd64 (5.7.3+dfsg-5ubuntu1) ...
+Dépaquetage de libsnmp30:i386 (5.7.3+dfsg-5ubuntu1.2) sur (5.7.3+dfsg-5ubuntu1) ...
+Préparation du dépaquetage de .../libsnmp30_5.7.3+dfsg-5ubuntu1.2_amd64.deb ...
+Dépaquetage de libsnmp30:amd64 (5.7.3+dfsg-5ubuntu1.2) sur (5.7.3+dfsg-5ubuntu1) ...
+Paramétrage de libsnmp-base (5.7.3+dfsg-5ubuntu1.2) ...
+Paramétrage de libapt-inst2.0:amd64 (1.8.3) ...
+Paramétrage de libsnmp30:amd64 (5.7.3+dfsg-5ubuntu1.2) ...
+Paramétrage de libsnmp30:i386 (5.7.3+dfsg-5ubuntu1.2) ...
+Paramétrage de apt-utils (1.8.3) ...
+Traitement des actions différées (« triggers ») pour man-db (2.8.5-2) ...
+Traitement des actions différées (« triggers ») pour libc-bin (2.29-0ubuntu2) ...
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.

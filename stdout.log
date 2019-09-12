@@ -1357,3 +1357,98 @@ Lecture des listes de paquets…
 Construction de l'arbre des dépendances…
 Lecture des informations d'état…
 0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+flatpak est déjà la version la plus récente (1.2.4-1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+gnome-software-plugin-flatpak est déjà la version la plus récente (3.30.6-2ubuntu4.19.04.1).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+baobab est déjà la version la plus récente (3.32.0-1).
+gparted est déjà la version la plus récente (0.32.0-1ubuntu1).
+gnome-tweaks est déjà la version la plus récente (3.32.0-1).
+synaptic est déjà la version la plus récente (0.84.5).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
+Looking for matches…
+Required runtime for org.qbittorrent.qBittorrent/x86_64/stable (runtime/org.kde.Platform/x86_64/5.12) found in remote flathub
+
+org.libreoffice.LibreOffice permissions:
+    ipc	network	pulseaudio	wayland
+    x11	dri	file access [1]	dbus access [2]
+    bus ownership [3]
+
+    [1] host, xdg-run/dconf
+    [2] ca.desrt.dconf, org.gtk.vfs.*
+    [3] org.libreoffice.LibreOfficeIpc0
+
+org.qbittorrent.qBittorrent permissions:
+    ipc	network	wayland	x11
+    dri	file access [1]	dbus access [2]
+
+    [1] host, xdg-config/kdeglobals:ro, xdg-run/dconf, ~/.config/dconf:ro
+    [2] com.canonical.AppMenu.Registrar, org.freedesktop.Notifications,
+        org.freedesktop.PowerManagement, org.gnome.SessionManager,
+        org.kde.StatusNotifierWatcher
+
+org.videolan.VLC permissions:
+    ipc	network	pulseaudio	x11
+    devices	file access [1]	dbus access [2]	bus ownership [3]
+
+    [1] /run/media, host, xdg-config/kdeglobals:ro, xdg-run/dconf, xdg-run/gvfs,
+        ~/.config/dconf:ro
+    [2] ca.desrt.dconf, com.canonical.AppMenu.Registrar,
+        org.freedesktop.Notifications, org.freedesktop.ScreenSaver,
+        org.freedesktop.secrets, org.kde.kwalletd, org.kde.kwalletd5,
+        org.mpris.MediaPlayer2.Player
+    [3] org.mpris.MediaPlayer2.vlc
+
+
+ 1.	   	org.libreoffice.LibreOffice	x86_64	stable	flathub	< 266,6 MB
+ 2.	   	org.libreoffice.LibreOffice.Locale	x86_64	stable	flathub	< 67,1 MB (partial)
+ 3.	   	org.kde.Platform	x86_64	5.12	flathub	< 429,6 MB
+ 4.	   	org.kde.KStyle.Adwaita	x86_64	5.12	flathub	< 5,6 MB
+ 5.	   	org.kde.Platform.Locale	x86_64	5.12	flathub	< 334,0 MB (partial)
+ 6.	   	org.qbittorrent.qBittorrent	x86_64	stable	flathub	< 8,1 MB
+ 7.	   	org.videolan.VLC	x86_64	stable	flathub	< 30,1 MB
+ 8.	   	org.videolan.VLC.Locale	x86_64	stable	flathub	< 13,2 MB (partial)
+
+
+Installing 1/8…                                                                     Installing 1/8… ▍                      2%Installing 1/8… ███                   15%Installing 1/8… ███                   15%  139,5 kB/sInstalling 1/8… ███▏                  16%  149,2 kB/sInstalling 1/8… ███                   15%  196,6 kB/sInstalling 1/8… ███                   15%  126,2 kB/sInstalling 1/8… ███                   15%  160,6 kB/sInstalling 1/8… ███                   15%  192,7 kB/sInstalling 1/8… ███▏                  16%  351,5 kB/sInstalling 1/8… ███▏                  16%  456,3 kB/sInstalling 1/8… ███▏                  16%  661,6 kB/sInstalling 1/8… ███▏                  16%  877,8 kB/sInstalling 1/8… ███▍                  17%  829,9 kB/s  00:19Installing 1/8… ███▍                  17%  1,0 MB/s  00:19Installing 1/8… ███▍                  17%  1,2 MB/s  00:19Installing 1/8… ███▍                  17%  1,1 MB/s  00:24Installing 1/8… ███▍                  17%  1,2 MB/s  00:24Installing 1/8… ███▍                  17%  1,4 MB/s  00:24Installing 1/8… ███▍                  17%  1,5 MB/s  00:24Installing 1/8… ███▍                  17%  1,4 MB/s  00:29Installing 1/8… ███▍                  17%  1,5 MB/s  00:29Installing 1/8… ███▍                  17%  1,6 MB/s  00:29Installing 1/8… ███▍                  17%  1,5 MB/s  00:34Installing 1/8… ███▍                  17%  1,6 MB/s  00:34Installing 1/8… ███▌                  18%  1,7 MB/s  00:31Installing 1/8… ███▌                  18%  1,6 MB/s  00:36Installing 1/8… ███▌                  18%  1,7 MB/s  00:36Installing 1/8… ███▌                  18%  1,8 MB/s  00:36Installing 1/8… ███▌                  18%  1,8 MB/s  00:36Installing 1/8… ███▌                  18%  1,7 MB/s  00:41Installing 1/8… ███▌                  18%  1,8 MB/s  00:41Installing 1/8… ███▌                  18%  1,9 MB/s  00:41Installing 1/8… ███▌                  18%  1,8 MB/s  00:45Installing 1/8… ███▊                  19%  1,8 MB/s  00:42Installing 1/8… ███▊                  19%  1,9 MB/s  00:42Installing 1/8… ████                  20%  1,8 MB/s  00:44Installing 1/8… ████                  20%  1,9 MB/s  00:44Installing 1/8… ████                  20%  1,9 MB/s  00:44Installing 1/8… ████▏                 21%  2,0 MB/s  00:41Installing 1/8… ████▍                 22%  1,8 MB/s  00:42Installing 1/8… ████▍                 22%  1,9 MB/s  00:42Installing 1/8… ████▏                 21%  1,9 MB/s  00:45Installing 1/8… ████▌                 23%  1,8 MB/s  00:43Installing 1/8… ████▊                 24%  1,9 MB/s  00:41Installing 1/8… ████▊                 24%  1,9 MB/s  00:41Installing 1/8… █████                 25%  1,8 MB/s  00:42Installing 1/8… █████                 25%  1,9 MB/s  00:42Installing 1/8… █████▏                26%  1,9 MB/s  00:39Installing 1/8… █████▏                26%  1,9 MB/s  00:39Installing 1/8… █████▏                26%  1,9 MB/s  00:42Installing 1/8… █████▍                27%  1,9 MB/s  00:40Installing 1/8… █████▍                27%  1,9 MB/s  00:40Installing 1/8… █████▍                27%  1,9 MB/s  00:43Installing 1/8… █████▌                28%  1,9 MB/s  00:41Installing 1/8… █████▌                28%  1,9 MB/s  00:41Installing 1/8… █████▌                28%  1,9 MB/s  00:43Installing 1/8… █████▊                29%  1,9 MB/s  00:41Installing 1/8… █████▊                29%  2,0 MB/s  00:41Installing 1/8… █████▊                29%  2,0 MB/s  00:41Installing 1/8… ██████                30%  1,9 MB/s  00:42Installing 1/8… ██████                30%  2,0 MB/s  00:42Installing 1/8… ██████                30%  2,0 MB/s  00:42Installing 1/8… ██████▏               31%  1,9 MB/s  00:42Installing 1/8… ██████▏               31%  2,0 MB/s  00:42Installing 1/8… ██████▏               31%  2,0 MB/s  00:42Installing 1/8… ██████▏               31%  1,9 MB/s  00:44Installing 1/8… ██████▍               32%  2,0 MB/s  00:42Installing 1/8… ██████▍               32%  2,0 MB/s  00:42Installing 1/8… ██████▍               32%  2,0 MB/s  00:42Installing 1/8… ██████▍               32%  2,0 MB/s  00:44Installing 1/8… ██████▌               33%  2,0 MB/s  00:42Installing 1/8… ██████▌               33%  2,0 MB/s  00:42Installing 1/8… ██████▌               33%  2,0 MB/s  00:44Installing 1/8… ██████▌               33%  2,0 MB/s  00:44Installing 1/8… ██████▌               33%  2,0 MB/s  00:44Installing 1/8… ██████▌               33%  2,0 MB/s  00:46Installing 1/8… ██████▌               33%  2,0 MB/s  00:46Installing 1/8… ██████▊               34%  2,0 MB/s  00:44Installing 1/8… ██████▊               34%  2,0 MB/s  00:44Installing 1/8… ██████▊               34%  2,0 MB/s  00:46Installing 1/8… ██████▊               34%  2,0 MB/s  00:46Installing 1/8… ██████▊               34%  2,0 MB/s  00:46Installing 1/8… ███████               35%  2,0 MB/s  00:46Installing 1/8… ███████               35%  2,0 MB/s  00:46Installing 1/8… ███████               35%  2,1 MB/s  00:46Installing 1/8… ███████               35%  2,0 MB/s  00:48Installing 1/8… ███████               35%  2,0 MB/s  00:48Installing 1/8… ███████               35%  2,1 MB/s  00:48Installing 1/8… ███████               35%  2,1 MB/s  00:48Installing 1/8… ███████▏              36%  2,0 MB/s  00:48Installing 1/8… ███████▏              36%  2,1 MB/s  00:48Installing 1/8… ███████▏              36%  2,1 MB/s  00:48Installing 1/8… ███████▍              37%  2,0 MB/s  00:47Installing 1/8… ███████▍              37%  2,1 MB/s  00:47Installing 1/8… ███████▍              37%  2,1 MB/s  00:47Installing 1/8… ███████▍              37%  2,0 MB/s  00:49Installing 1/8… ███████▍              37%  2,0 MB/s  00:49Installing 1/8… ███████▍              37%  2,1 MB/s  00:49Installing 1/8… ███████▍              37%  2,1 MB/s  00:49Installing 1/8… ███████▍              37%  2,0 MB/s  00:51Installing 1/8… ███████▍              37%  2,0 MB/s  00:51Installing 1/8… ███████▍              37%  2,1 MB/s  00:51Installing 1/8… ███████▍              37%  2,0 MB/s  00:52Installing 1/8… ███████▍              37%  2,0 MB/s  00:52Installing 1/8… ███████▍              37%  2,0 MB/s  00:52[?25hLooking for matches…
+Required runtime for ca.desrt.dconf-editor/x86_64/stable (runtime/org.gnome.Platform/x86_64/3.32) found in remote flathub
+
+net.sourceforge.Klavaro permissions:
+    ipc	pulseaudio	wayland	x11
+
+
+org.vim.Vim permissions:
+    ipc	network	wayland	x11
+    file access [1]	dbus access [2]
+
+    [1] /tmp, /var/tmp, host
+    [2] org.freedesktop.Flatpak
+
+ca.desrt.dconf-editor permissions:
+    ipc	wayland	x11	file access [1]
+    dbus access [2]
+
+    [1] host:ro, xdg-run/dconf
+    [2] ca.desrt.dconf, org.freedesktop.Flatpak, org.gnome.SettingsDaemon.Color
+
+
+ 1.	   	net.sourceforge.Klavaro	x86_64	stable	flathub	< 13,4 MB
+ 2.	   	net.sourceforge.Klavaro.Locale	x86_64	stable	flathub	< 424,8 kB (partial)
+ 3.	   	org.vim.Vim	x86_64	stable	flathub	< 12,2 MB
+ 4.	   	org.gnome.Platform	x86_64	3.32	flathub	< 373,8 MB
+ 5.	   	org.gnome.Platform.Locale	x86_64	3.32	flathub	< 319,8 MB (partial)
+ 6.	   	ca.desrt.dconf-editor	x86_64	stable	flathub	< 489,2 kB
+ 7.	   	ca.desrt.dconf_editor.Locale	x86_64	stable	flathub	< 571,1 kB (partial)
+
+
+Installing 1/7…                                                                 Installing 1/7… ▌                      3%[?25hLecture des listes de paquets…
+Construction de l'arbre des dépendances…

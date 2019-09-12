@@ -16,12 +16,12 @@ echo "Script de configuration et d'installation des logiciels principaux pour Pa
 echo "Ce script va installer les logiciels : VLC, LibreOffice, Git, Eclipse, Discord, Qbittorrent, Klavaro, Intellij, Dconf, Sublime Text, Gnome Tweaks, Analyseur d'espace disque, Steam, Lutris, ..."
 echo "Etês-vous certain de vouloir exécuter ce script(y/n): "
 
-installFlatHubUbuntu() {
+installFlatpakUbuntu() {
 
 	printf "Installation de Flatpak pour Ubuntu >= 18.10 (requis pour ce script)..."
 
-	sudo apt -y install flatpak >> stdout.log
-	sudo apt -y install gnome-software-plugin-flatpak >> stdout.log
+	apt -y install flatpak >> stdout.log
+	apt -y install gnome-software-plugin-flatpak >> stdout.log
 
 	printf "OK\n"
 }
@@ -36,15 +36,23 @@ flatpakSetup() {
 }
 
 
-installSteamLutris() {
+installSteam() {
 
-	printf "Installation de Steam et Lutris..."
+	printf "Installation de Steam..."
 
-	flatpak install flathub com.valvesoftware.Steam >> stdout.log
-	sudo add-apt-repository -y ppa:lutris-team/lutris >> stdout.log
-	sudo apt-get update >> stdout.log
-	sudo apt-get -y install lutris >> stdout.log
+	apt install -y steam-installer >> stdout.log
 	
+	printf "OK\n"
+}
+
+installLutris() {
+
+	printf "Installation de Lutris..."
+
+	add-apt-repository -y ppa:lutris-team/lutris >> stdout.log
+	apt-get update >> stdout.log
+	apt-get -y install lutris >> stdout.log
+
 	printf "OK\n"
 }
 
@@ -52,17 +60,17 @@ installWineForLutris() {
 	
 	# Installer Wine (faire tourner des programmes Windows).
 
-	sudo dpkg --add-architecture i386 >> stdout.log
+	dpkg --add-architecture i386 >> stdout.log
 	wget -nc https://dl.winehq.org/wine-builds/winehq.key >> stdout.log
-	sudo apt-key add winehq.key >> stdout.log
+	apt-key add winehq.key >> stdout.log
 	rm winehq.key >> stdout.log
 
 	#--------------------- ONLY FOR UBUNTU 19.04 ---------------
 	# If your have others version or distribution, go to https://github.com/lutris/lutris/wiki/Wine-Dependencies
-	sudo apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main' >> stdout.log
-	sudo apt update >> stdout.log
-	sudo apt-get install -y --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 >> stdout.log
-	sudo apt-get install -y libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 >> stdout.log
+	apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main' >> stdout.log
+	apt update >> stdout.log
+	apt-get install -y --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64 >> stdout.log
+	apt-get install -y libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386 >> stdout.log
 }
 
 changeSwap() {
@@ -70,13 +78,13 @@ changeSwap() {
 	#change le déclenchement du fichier swap à 5% de la ram libre
 	printf "Réglage du déclenchement du fichier d'échange (swap)..."
 
-	echo vm.swappiness=5 | sudo tee /etc/sysctl.d/99-swappiness.conf >> stdout.log
-	echo vm.vfs_cache_pressure=50 | sudo tee -a /etc/sysctl.d/99-swappiness.conf >> stdout.log
+	echo vm.swappiness=5 | tee /etc/sysctl.d/99-swappiness.conf >> stdout.log
+	echo vm.vfs_cache_pressure=50 | tee -a /etc/sysctl.d/99-swappiness.conf >> stdout.log
 
-	sudo sysctl -p /etc/sysctl.d/99-swappiness.conf >> stdout.log
+	sysctl -p /etc/sysctl.d/99-swappiness.conf >> stdout.log
 
-	sudo swapoff -av >> stdout.log
-	sudo swapon -av	>> stdout.log
+	swapoff -av >> stdout.log
+	swapon -av	>> stdout.log
 
 	printf "OK\n"	
 }
@@ -94,12 +102,28 @@ changeGnomeSettings() {
 
 }
 
+installVirtualBox() {
+
+	printf "Installation de VirtualBox..."
+
+	apt install -y virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-qt
+
+	printf "OK\n"
+}
+
+removeSnap() {
+
+	printf "Désinstallation de snap..."
+
+	apt -y purge snapd
+}
+
 installAppsDev() {
 
 	printf "Installation du pack développeur (Eclipse, IntelliJIDEA, Git)..."
 
-	sudo apt install -y eclipse-titan git >> stdout.log
-	flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community com.visualstudio.code >> stdout.log
+	apt install -y eclipse-titan git >> stdout.log
+	flatpak install -y flathub com.jetbrains.IntelliJ-IDEA-Community com.visualstudio.code >> stdout.log
 
 	printf "OK\n"
 }
@@ -108,9 +132,9 @@ installStandardApps() {
 
 	printf "Installation des applications standard..."
 
-	sudo apt -y install gnome-tweaks gparted baobab synaptic >> stdout.log
-	flatpak install flathub com.sublimetext.three com.discordapp.Discord org.videolan.VLC org.libreoffice.LibreOffice org.qbittorrent.qBittorrent >> stdout.log
-	flatpak install flathub org.vim.Vim ca.desrt.dconf-editor net.sourceforge.Klavaro >> stdout.log
+	apt -y install gnome-tweaks gparted baobab synaptic vlc libreoffice qbittorrent vim dconf-editor Klavaro >> stdout.log
+	flatpak install -y flathub com.sublimetext.three com.discordapp.Discord >> stdout.log
+
 	printf "OK\n"
 
 }
@@ -119,7 +143,7 @@ installMinecraft() {
 
 	printf "Installation de Minecraft..."
 
-	sudo flatpak install flathub org.libreoffice.LibreOffice >> stdout.log
+	flatpak install -y flathub com.mojang.Minecraft
 
 	printf "OK\n"
 }
@@ -128,9 +152,9 @@ updateAndClean() {
 
 	printf "Mises à jour des programmes et suppressions des packages inutiles..."
 
-	sudo apt upgrade -y >> stdout.log
-	sudo apt autoremove -y --purge >> stdout.log
-	sudo apt clean >> stdout.log
+	apt upgrade -y >> stdout.log
+	apt autoremove -y --purge >> stdout.log
+	apt clean >> stdout.log
 
 	printf "OK\n"
 }
@@ -139,15 +163,17 @@ read reponse
 
 if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
 
-	installFlatHubUbuntu 2>> stderr.log
+	installFlatpakUbuntu 2>> stderr.log
 	flatpakSetup 2>> stderr.log
 
 	installStandardApps 2>> stderr.log
 	installAppsDev 2>> stderr.log
-	installSteamLutris 2>> stderr.log
+	installSteam 2>> stderr.log
+	installLutris 2>> stderr.log
 	installMinecraft 2>> stderr.log
 	#installWineForLutris 2>> stderr.log
 	changeSwap 2>> stderr.log
 	changeGnomeSettings 2>> stderr.log
+	removeSnap 2>>stderr.log
 	updateAndClean 2>> stderr.log
 fi

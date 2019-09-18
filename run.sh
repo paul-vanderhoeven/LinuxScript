@@ -26,14 +26,16 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	installFlatpakUbuntu 2>> stderr.log
 	flatpakSetup 2>> stderr.log
 
-	installStandardApps 2>> stderr.log
-	installAppsDev 2>> stderr.log
-	installSteam 2>> stderr.log
-	installLutris 2>> stderr.log
+	#installStandardApps 2>> stderr.log
+	#installAppsDev 2>> stderr.log
+	#installSteam 2>> stderr.log
+	#installLutris 2>> stderr.log
 	installMinecraft 2>> stderr.log
 	#installWineForLutris 2>> stderr.log
+	installOpenJre 2>> stderr.log
+	installEclipse 2>> stderr.log
 	changeSwapSettings 2>> stderr.log
 	changeGnomeSettings 2>> stderr.log
-	removeSnap 2>>stderr.log
+	#removeSnap 2>>stderr.log
 	updateAndClean 2>> stderr.log
 fi

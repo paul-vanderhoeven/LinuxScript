@@ -104,7 +104,7 @@ installAppsDev() {
 
 	printf "Installation du pack développeur (Eclipse, IntelliJIDEA, Git)..."
 
-	apt install -y eclipse-titan git >> stdout.log
+	apt install -y git >> stdout.log
 	flatpak install -y flathub com.jetbrains.IntelliJ-IDEA-Community com.visualstudio.code >> stdout.log
 
 	printf "OK\n"
@@ -130,30 +130,23 @@ installMinecraft() {
 	printf "OK\n"
 }
 
-installJavaProprietaire() {
-
-	#Télechargement et installation de Java Propriétaire Oracle
-	#Recommandé pour 
-
-	printf "Installation de Java propriétaire..."
-
-	apt -y install java-package >> stdout.log
-	mkdir working_directory >> stdout.log
-	cd working_directory >> stdout.log
-
-	wget "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239848_230deb18db3e4014bb8e3e8324f81b43" >> stdout.log
-	echo "Y\n" | make-jpkg jre* >> stdout.log
-	dpkg -i oracle-java8-jre* >> stdout.log
-	cd ..
-
-	printf "OK\n"
-}
-
 installOpenJre() {
 
 	printf "Installation de la version libre de Java..."
 
 	apt -y install default-jre >> stdout.log
+
+	printf "OK\n"
+}
+
+installEclipse() {
+
+	#Installation de eclipse avec snap => installation de snap.
+
+	printf "Installation de Eclipse..."
+
+	sudo apt -y install snapd >> stdout.log
+	sudo snap install eclipse --classic >> stdout.log
 
 	printf "OK\n"
 }

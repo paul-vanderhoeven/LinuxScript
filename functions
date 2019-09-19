@@ -151,6 +151,15 @@ installEclipse() {
 	printf "OK\n"
 }
 
+installLAMP() {
+
+	printf "Installation de LAMP..."
+
+	apt install -y apache2 php libapache2-mod-php mysql-server php-mysql phpmyadmin php-curl php-gd php-intl php-json php-mbstring php-xml php-zip >> stdout.log
+
+	printf "OK\n"
+}
+
 updateAndClean() {
 
 	printf "Mises à jour des programmes et suppressions des packages inutiles..."

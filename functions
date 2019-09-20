@@ -105,7 +105,7 @@ installAppsDev() {
 	printf "Installation du pack développeur (Eclipse, IntelliJIDEA, Git)..."
 
 	apt install -y git >> stdout.log
-	flatpak install -y flathub com.jetbrains.IntelliJ-IDEA-Community com.visualstudio.code >> stdout.log
+	flatpak install -y flathub com.jetbrains.IntelliJ-IDEA-Community >> stdout.log
 
 	printf "OK\n"
 }
@@ -114,7 +114,7 @@ installStandardApps() {
 
 	printf "Installation des applications standard..."
 
-	apt -y install gnome-tweaks gparted baobab synaptic vlc libreoffice qbittorrent vim dconf-editor Klavaro >> stdout.log
+	apt -y install gnome-tweaks gparted baobab synaptic vlc libreoffice qbittorrent vim dconf-editor >> stdout.log
 	flatpak install -y flathub com.sublimetext.three com.discordapp.Discord >> stdout.log
 
 	printf "OK\n"
@@ -139,23 +139,14 @@ installOpenJre() {
 	printf "OK\n"
 }
 
-installEclipse() {
-
-	#Installation de eclipse avec snap => installation de snap.
-
-	printf "Installation de Eclipse..."
-
-	sudo apt -y install snapd >> stdout.log
-	sudo snap install eclipse --classic >> stdout.log
-
-	printf "OK\n"
-}
-
 installLAMP() {
 
 	printf "Installation de LAMP..."
 
 	apt install -y apache2 php libapache2-mod-php mysql-server php-mysql phpmyadmin php-curl php-gd php-intl php-json php-mbstring php-xml php-zip >> stdout.log
+
+	systemctl disable apache2
+	systemctl disable mysql
 
 	printf "OK\n"
 }

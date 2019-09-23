@@ -7,10 +7,16 @@
 # Si vous avez une version d'Ubuntu différente ou une autre distribution que Ubuntu, certaines partie du script ne fonctionneront pas.
 # --------------------------------------------------------------------------------
 
+STDERR="stderr-$(date +%Y-%m-%d-%H:%M:%S).log"
+STDOUT="stdout-$(date +%Y-%m-%d-%H:%M:%S).log"
+export TTY="$(tty)"
+
 if [ "$(id -u)" != 0 ] ; then
 	echo "Vous devez avoir les droits d'administrateurs !"
 	exit
 fi
+
+touch $STDOUT
 
 echo "Script de configuration et d'installation des logiciels principaux pour Paul VDH."
 echo "Ce script va installer les logiciels : Flatpak, VLC, LibreOffice, Git, Eclipse, Discord, Qbittorrent, Klavaro, Intellij, Dconf, Sublime Text, Gnome Tweaks, Steam, Lutris, Minecraft ..."
@@ -23,20 +29,20 @@ source ./functions
 
 if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
 
-	installFlatpakUbuntu 2>> stderr.log
-	flatpakSetup 2>> stderr.log
+	installFlatpakUbuntu 2>> $STDERR >> $STDOUT
+	flatpakSetup 2>> $STDERR >> $STDOUT
 
-	#installStandardApps 2>> stderr.log
-	#installAppsDev 2>> stderr.log
-	#installSteam 2>> stderr.log
-	#installLutris 2>> stderr.log
-	#installMinecraft 2>> stderr.log
-	#installWineForLutris 2>> stderr.log
-	#installOpenJre 2>> stderr.log
-	#installEclipse 2>> stderr.log
-	#changeSwapSettings 2>> stderr.log
-	#changeGnomeSettings 2>> stderr.log
-	#removeSnap 2>>stderr.log
-	installLAMP 2>> stderr.log
-	#updateAndClean 2>> stderr.log
+	#installStandardApps 2>> $STDERR 
+	#installAppsDev 2>> $STDERR
+	#installSteam 2>> $STDERR
+	#installLutris 2>> $STDERR
+	#installMinecraft 2>> $STDERR
+	#installWineForLutris 2>> $STDERR
+	#installOpenJre 2>> $STDERR
+	#installEclipse 2>> $STDERR
+	#changeSwapSettings 2>> $STDERR
+	#changeGnomeSettings 2>> $STDERR
+	#removeSnap 2>>$STDERR
+	#installLAMP 2>> $STDERR
+	updateAndClean 2>> $STDERR >> $STDOUT
 fi

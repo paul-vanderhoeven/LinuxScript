@@ -151,6 +151,17 @@ installLAMP() {
 	printf "OK\n" >> $TTY
 }
 
+installEclipse() {
+
+	printf "Installation d'Eclipse..." >> $TTY
+
+	wget -q "http://eclipse.mirror.garr.it/mirrors/eclipse//technology/epp/downloads/release/2019-09/R/eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz"
+	tar xvf eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz
+	rm eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz
+
+	printf "OK\n" >> $TTY
+}
+
 updateAndClean() {
 
 	printf "Mises à jour des programmes et suppressions des packages inutiles..." >> $TTY

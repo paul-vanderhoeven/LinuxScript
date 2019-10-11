@@ -9,6 +9,7 @@
 
 STDERR="$(pwd)/stderr-$(date +%Y-%m-%d-%H:%M:%S).log"
 STDOUT="$(pwd)/stdout-$(date +%Y-%m-%d-%H:%M:%S).log"
+USER="paul"
 
 export TTY="$(tty)"
 
@@ -27,6 +28,11 @@ read reponse
 source ./functions
 
 if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
+
+	touch $STDOUT
+	touch $STDERR
+	chown $USER $STDERR
+	chown $USER $STDOUT
 
 	installFlatpakUbuntu 2>> $STDERR >> $STDOUT
 	flatpakSetup 2>> $STDERR >> $STDOUT

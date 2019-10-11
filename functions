@@ -158,8 +158,16 @@ installEclipse() {
 	wget -q "http://eclipse.mirror.garr.it/mirrors/eclipse//technology/epp/downloads/release/2019-09/R/eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz"
 	tar xvf eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz
 	rm eclipse-jee-2019-09-R-linux-gtk-x86_64.tar.gz
+	mv eclipse /opt/
+
+	createEclipseLauncher
 
 	printf "OK\n" >> $TTY
+}
+
+createEclipseLauncher() {
+
+	echo -e "[Desktop Entry]\nName=Eclipse\nType=Application\nExec=/opt/eclipse/eclipse\nTerminal=false\nIcon=/opt/eclipse/icon.xpm\nComment=Integrated Development Environment\nNoDisplay=false\nCategories=Development;IDE\nName[en]=Eclipse" > /usr/share/applications/eclipse.desktop
 }
 
 updateAndClean() {

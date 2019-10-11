@@ -47,7 +47,7 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	#installEclipse 2>> $STDERR >> $STDOUT
 	#changeSwapSettings 2>> $STDERR >> $STDOUT
 	#changeGnomeSettings 2>> $STDERR >> $STDOUT
-	installEclipse 2>> $STDERR >> $STDOUT
+	#installEclipse 2>> $STDERR >> $STDOUT
 	#removeSnap 2>>$STDERR >> $STDOUT
 	#installLAMP 2>> $STDERR >> $STDOUT
 	updateAndClean 2>> $STDERR >> $STDOUT

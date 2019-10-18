@@ -1,3 +1,6 @@
 #log file
 *.log
-.log
+*.tar
+*.zip
+*.bzip2
+*.rar

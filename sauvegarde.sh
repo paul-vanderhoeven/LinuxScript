@@ -1,13 +1,16 @@
 #!/bin/bash
 
 list=""
+destination="configSave.tar"
 
 while read line ; do
-	if [ -d "$line" ]
+	if [ -e $line ]
 	then
 		list+="$line ";
 	fi
 done < folderToSave
 
-echo $list
-tar cvf configSave.tar $list
+sudo tar cfp $destination --exclude="$destination" $list
+sudo chown $USER $destination
+chmod 600 $destination
+chgrp $USER $destination

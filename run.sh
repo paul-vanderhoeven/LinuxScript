@@ -7,8 +7,8 @@
 # Si vous avez une version d'Ubuntu différente ou une autre distribution que Ubuntu, certaines partie du script ne fonctionneront pas.
 # --------------------------------------------------------------------------------
 
-STDERR="$(pwd)/stderr-$(date +%Y-%m-%d-%H:%M:%S).log"
-STDOUT="$(pwd)/stdout-$(date +%Y-%m-%d-%H:%M:%S).log"
+STDERR="$(pwd)/log/stderr-$(date +%Y-%m-%d-%H:%M:%S).log"
+STDOUT="$(pwd)/log/stdout-$(date +%Y-%m-%d-%H:%M:%S).log"
 USER="paul"
 
 export TTY="$(tty)"
@@ -25,14 +25,19 @@ echo "Etês-vous certain de vouloir exécuter ce script(y/n): "
 
 read reponse
 
-source ./functions
-
-if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
-
+creationLog() {
+	mkdir log
 	touch $STDOUT
 	touch $STDERR
 	chown $USER $STDERR
 	chown $USER $STDOUT
+	chown $USER log
+}
+source ./functions
+
+if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
+
+	creationLog
 
 	installFlatpakUbuntu 2>> $STDERR >> $STDOUT
 	flatpakSetup 2>> $STDERR >> $STDOUT
@@ -51,6 +56,6 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	#installLAMP 2>> $STDERR >> $STDOUT
 
 	#changeSwapSettings 2>> $STDERR >> $STDOUT
-	
+
 	updateAndClean 2>> $STDERR >> $STDOUT
 fi

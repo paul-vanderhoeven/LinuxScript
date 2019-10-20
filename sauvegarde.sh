@@ -26,3 +26,4 @@ saveFirefoxProfil() {
 }
 
 saveFirefoxProfil
+saveData

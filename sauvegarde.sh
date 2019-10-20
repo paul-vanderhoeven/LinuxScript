@@ -1,7 +1,9 @@
 #!/bin/bash
 
 list=""
-destination="configSave.tar"
+destinationData="data.tar"
+destinationConfig="config.tar"
+
 
 while read line ; do
 	if [ -e $line ]
@@ -10,7 +12,8 @@ while read line ; do
 	fi
 done < folderToSave
 
-sudo tar cfp $destination --exclude="$destination" $list
-sudo chown $USER $destination
-chmod 600 $destination
-chgrp $USER $destination
+saveData() {
+	tar cfpv $destinationData --exclude="\.*" --exclude="$destinationConfig $destinationData" /home/paul/
+}
+
+saveData

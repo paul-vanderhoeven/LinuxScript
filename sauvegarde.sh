@@ -1,9 +1,10 @@
 #!/bin/bash
 
+pwd="$(pwd)"
 list=""
-destinationData="data.tar"
-destinationConfig="config.tar"
-
+destinationData="$pwd/data.tar"
+destinationConfig="$pwd/config.tar"
+destinationFirefox="$pwd/firefox.tar"
 
 while read line ; do
 	if [ -e $line ]
@@ -13,7 +14,15 @@ while read line ; do
 done < folderToSave
 
 saveData() {
-	tar cfpv $destinationData --exclude="\.*" --exclude="$destinationConfig $destinationData" /home/paul/
+	cd /home/$USER/
+	tar cfpv $destinationData --exclude="\.*" --exclude="$destinationConfig $destinationData" *
+	cd $pwd
 }
 
-saveData
+saveFirefoxProfil() {
+	cd /home/$USER/.mozilla/firefox/*.default
+	tar cfpv $destinationFirefox *
+	cd $pwd
+}
+
+saveFirefoxProfil

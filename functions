@@ -1,9 +1,8 @@
 installFlatpakUbuntu() {
 
-	printf "Installation de Flatpak pour Ubuntu >= 18.10 (requis pour ce script)..." >> $TTY
+	printf "Installation de flatpak..." >> $TTY
 
-	apt -y install flatpak
-	apt -y install gnome-software-plugin-flatpak
+	$installer flatpak
 
 	printf "OK\n" >> $TTY
 }
@@ -22,37 +21,9 @@ installSteam() {
 
 	printf "Installation de Steam..." >> $TTY
 
-	apt install -y steam-installer
+	$installer steam-installer
 
 	printf "OK\n" >> $TTY
-}
-
-installLutris() {
-
-	printf "Installation de Lutris..." >> $TTY
-
-	add-apt-repository -y ppa:lutris-team/lutris
-	apt-get update
-	apt-get -y install lutris
-
-	printf "OK\n" >> $TTY
-}
-
-installWineForLutris() {
-
-	# Installer Wine (faire tourner des programmes Windows).
-
-	dpkg --add-architecture i386
-	wget -nc https://dl.winehq.org/wine-builds/winehq.key
-	apt-key add winehq.key
-	rm winehq.key
-
-	#--------------------- ONLY FOR UBUNTU 19.04 ---------------
-	# If your have others version or distribution, go to https://github.com/lutris/lutris/wiki/Wine-Dependencies
-	apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
-	apt update
-	apt-get install -y --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64
-	apt-get install -y libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386
 }
 
 changeSwapSettings() {
@@ -71,36 +42,11 @@ changeSwapSettings() {
 	printf "OK\n" >> $TTY
 }
 
-changeGnomeSettings() {
-
-	printf "Changement des paramètres de gnome shell..." >> $TTY
-	#Notifications
-	gsettings set org.gnome.desktop.notifications show-in-lock-screen false
-	gsettings set org.gnome.desktop.notifications show-banners false
-	#Recherche
-	gsettings set org.gnome.desktop.search-providers disable-external true
-	#Layout windows
-	gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
-	gsettings set org.gnome.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'
-	#Barre supérieure
-	gsettings set org.gnome.desktop.interface clock-show-seconds true
-	gsettings set org.gnome.desktop.interface clock-show-weekday true
-	gsettings set org.gnome.desktop.interface show-battery-percentage true
-	#Calendrier
-	gsettings set org.gnome.desktop.calendar show-weekdate true
-	#Périphériques
-	gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'
-	gsettings set org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
-
-	printf "OK\n" >> $TTY
-
-}
-
 installVirtualBox() {
 
 	printf "Installation de VirtualBox..." >> $TTY
 
-	apt install -y virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-qt
+	$installer virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-qt
 
 	printf "OK\n" >> $TTY
 }
@@ -109,14 +55,14 @@ removeSnap() {
 
 	printf "Désinstallation de snap..." >> $TTY
 
-	apt -y purge snapd
+	$installer -y purge snapd
 }
 
 installAppsDev() {
 
 	printf "Installation du pack développeur (Eclipse, IntelliJIDEA, Git)..." >> $TTY
 
-	apt install -y git
+	$installer git
 	flatpak install -y flathub com.jetbrains.IntelliJ-IDEA-Community
 
 	printf "OK\n" >> $TTY
@@ -126,7 +72,7 @@ installStandardApps() {
 
 	printf "Installation des applications standard..." >> $TTY
 
-	apt -y install gnome-tweaks gparted baobab synaptic vlc libreoffice qbittorrent vim dconf-editor
+	$installer gnome-tweaks gparted baobab synaptic vlc libreoffice qbittorrent vim dconf-editor
 	flatpak install -y flathub com.sublimetext.three com.discordapp.Discord
 
 	printf "OK\n" >> $TTY
@@ -146,7 +92,7 @@ installOpenJre() {
 
 	printf "Installation de la version libre de Java..." >> $TTY
 
-	apt -y install default-jre
+	$installer default-jre
 
 	printf "OK\n" >> $TTY
 }
@@ -155,7 +101,7 @@ installLAMP() {
 
 	printf "Installation de LAMP..." >> $TTY
 
-	apt install -y apache2 php libapache2-mod-php mysql-server php-mysql phpmyadmin php-curl php-gd php-intl php-json php-mbstring php-xml php-zip
+	$installer apache2 php libapache2-mod-php mysql-server php-mysql phpmyadmin php-curl php-gd php-intl php-json php-mbstring php-xml php-zip
 
 	systemctl disable apache2
 	systemctl disable mysql
@@ -180,15 +126,4 @@ installEclipse() {
 createEclipseLauncher() {
 
 	echo -e "[Desktop Entry]\nName=Eclipse\nType=Application\nExec=/opt/eclipse/eclipse\nTerminal=false\nIcon=/opt/eclipse/icon.xpm\nComment=Integrated Development Environment\nNoDisplay=false\nCategories=Development;IDE\nName[en]=Eclipse" > /usr/share/applications/eclipse.desktop
-}
-
-updateAndClean() {
-
-	printf "Mises à jour des programmes et suppressions des packages inutiles..." >> $TTY
-
-	apt upgrade -y
-	apt autoremove -y --purge
-	apt clean
-
-	printf "OK\n" >> $TTY
 }

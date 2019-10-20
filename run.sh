@@ -9,14 +9,9 @@
 
 STDERR="$(pwd)/log/stderr-$(date +%Y-%m-%d-%H:%M:%S).log"
 STDOUT="$(pwd)/log/stdout-$(date +%Y-%m-%d-%H:%M:%S).log"
-USER="paul"
+TTY="$(tty)"
 
-export TTY="$(tty)"
-
-if [ "$(id -u)" != 0 ] ; then
-	echo "Vous devez avoir les droits d'administrateurs !"
-	exit
-fi
+echo "Vous devez avoir les droits d'administrateur pour exécuter ce script !"
 
 echo "Script de configuration et d'installation des logiciels principaux pour Paul VDH."
 echo "Ce script va installer les logiciels : Flatpak, VLC, LibreOffice, Git, Eclipse, Discord, Qbittorrent, Klavaro, Intellij, Dconf, Sublime Text, Gnome Tweaks, Steam, Lutris, Minecraft ..."
@@ -26,13 +21,20 @@ echo "Etês-vous certain de vouloir exécuter ce script(y/n): "
 read reponse
 
 creationLog() {
-	mkdir log
+	if [ ! -e log ] ; then
+		mkdir log
+	fi
 	touch $STDOUT
 	touch $STDERR
-	chown $USER $STDERR
-	chown $USER $STDOUT
-	chown $USER log
 }
+
+if [ ! -z "$(cat /etc/*-release | grep Ubuntu)" ] ; then
+	source ./apt
+fi
+if [ ! -z "$(cat /etc/*-release | grep Arch)" ] ; then
+	source ./pacman
+fi
+source ./gnome
 source ./functions
 
 if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
@@ -42,7 +44,7 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	installFlatpakUbuntu 2>> $STDERR >> $STDOUT
 	flatpakSetup 2>> $STDERR >> $STDOUT
 
-	#installStandardApps 2>> $STDERR >> $STDOUT 
+	installStandardApps 2>> $STDERR >> $STDOUT
 	#installAppsDev 2>> $STDERR >> $STDOUT
 	#installSteam 2>> $STDERR >> $STDOUT
 	#installLutris 2>> $STDERR >> $STDOUT
@@ -50,12 +52,12 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	#installWineForLutris 2>> $STDERR >> $STDOUT
 	#installOpenJre 2>> $STDERR >> $STDOUT
 	#installEclipse 2>> $STDERR >> $STDOUT
-	#changeGnomeSettings 2>> $STDERR >> $STDOUT
 	#installEclipse 2>> $STDERR >> $STDOUT
 	#removeSnap 2>>$STDERR >> $STDOUT
 	#installLAMP 2>> $STDERR >> $STDOUT
 
-	#changeSwapSettings 2>> $STDERR >> $STDOUT
+	changeGnomeSettings 2>> $STDERR >> $STDOUT
+	changeSwapSettings 2>> $STDERR >> $STDOUT
 
 	updateAndClean 2>> $STDERR >> $STDOUT
 fi

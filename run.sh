@@ -9,11 +9,15 @@
 
 STDERR="$(pwd)/log/stderr-$(date +%Y-%m-%d-%H:%M:%S).log"
 STDOUT="$(pwd)/log/stdout-$(date +%Y-%m-%d-%H:%M:%S).log"
+USER="paul"
 TTY="$(tty)"
 
-echo "Vous devez avoir les droits d'administrateur pour exécuter ce script !"
+if [ $(id -u) -ne 0 ] ; then
+	echo "Vous devez avoir les droits d'administrateur pour exécuter ce script !"
+	exit
+fi
 
-echo "Script de configuration et d'installation des logiciels principaux pour Paul VDH."
+echo "Script d'installation des logiciels principaux pour Paul VDH."
 echo "Ce script va installer les logiciels : Flatpak, VLC, LibreOffice, Git, Eclipse, Discord, Qbittorrent, Klavaro, Intellij, Dconf, Sublime Text, Gnome Tweaks, Steam, Lutris, Minecraft ..."
 echo "Des paramètres seront également changés: notifications, recherche, swap, suppression de snap"
 echo "Etês-vous certain de vouloir exécuter ce script(y/n): "
@@ -21,11 +25,14 @@ echo "Etês-vous certain de vouloir exécuter ce script(y/n): "
 read reponse
 
 creationLog() {
-	if [ ! -e log ] ; then
+	if [ ! -e ./log ] ; then
 		mkdir log
 	fi
 	touch $STDOUT
 	touch $STDERR
+	chown $USER log
+	chown $USER $STDOUT
+	chown $USER $STDERR
 }
 
 if [ ! -z "$(cat /etc/*-release | grep Ubuntu)" ] ; then
@@ -34,14 +41,13 @@ fi
 if [ ! -z "$(cat /etc/*-release | grep Arch)" ] ; then
 	source ./pacman
 fi
-source ./gnome
 source ./functions
 
 if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
 
 	creationLog
 
-	installFlatpakUbuntu 2>> $STDERR >> $STDOUT
+	installFlatpak 2>> $STDERR >> $STDOUT
 	flatpakSetup 2>> $STDERR >> $STDOUT
 
 	installStandardApps 2>> $STDERR >> $STDOUT
@@ -56,7 +62,6 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	#removeSnap 2>>$STDERR >> $STDOUT
 	#installLAMP 2>> $STDERR >> $STDOUT
 
-	changeGnomeSettings 2>> $STDERR >> $STDOUT
 	changeSwapSettings 2>> $STDERR >> $STDOUT
 
 	updateAndClean 2>> $STDERR >> $STDOUT

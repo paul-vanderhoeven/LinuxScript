@@ -1,10 +1,10 @@
-installer="sudo pacman -S --noconfirm"
+installer="pacman -S --noconfirm"
 
 updateAndClean() {
 
 	printf "Mises à jour des programmes et suppressions des packages inutiles..." >> $TTY
 
-	sudo pacman -Suy --noconfirm
+	pacman -Suy --noconfirm
 
 	printf "OK\n" >> $TTY
 }

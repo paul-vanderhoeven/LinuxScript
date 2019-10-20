@@ -1,6 +1,15 @@
+#!/bin/bash
+
+# --------------------------------------------------------------------------------
+# Script de configuration de Gnome
+# --------------------------------------------------------------------------------
+# Ce script fonctionne uniquement pour Gnome.
+# A ne pas executer en root !
+# --------------------------------------------------------------------------------
+
 changeGnomeSettings() {
 
-	printf "Changement des paramètres de gnome..." >> $TTY
+	printf "Changement des paramètres de gnome..."
 	#Notifications
 	gsettings set org.gnome.desktop.notifications show-in-lock-screen false
 	gsettings set org.gnome.desktop.notifications show-banners false
@@ -21,5 +30,12 @@ changeGnomeSettings() {
 	#Vérrouiller
 	gsettings set org.gnome.desktop.lockdown disable-lock-screen false
 	
-	printf "OK\n" >> $TTY
+	printf "OK\n"
 }
+
+if [ $(id -u) -eq 0 ] ; then
+	echo "A ne pas executer en root !"
+	exit
+fi
+
+changeGnomeSettings

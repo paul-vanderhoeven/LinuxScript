@@ -1,11 +1,11 @@
-installer="sudo apt install -y"
+installer="apt install -y"
 
 installLutris() { # NE FONCTIONNE QUE POUR LES DISTROS BASÉES SUR BEBIAN
 
 	printf "Installation de Lutris..." >> $TTY
 
-	sudo add-apt-repository -y ppa:lutris-team/lutris
-	sudo apt -y update
+	add-apt-repository -y ppa:lutris-team/lutris
+	apt -y update
 	$installer -y install lutris
 
 	printf "OK\n" >> $TTY
@@ -15,15 +15,15 @@ installWineForLutris() { # NE FONCTIONNE QUE POUR LES DISTROS BASÉES SUR BEBIAN
 
 	# Installer Wine (faire tourner des programmes Windows).
 
-	sudo dpkg --add-architecture i386
+	dpkg --add-architecture i386
 	wget -nc https://dl.winehq.org/wine-builds/winehq.key
-	sudo apt-key add winehq.key
+	apt-key add winehq.key
 	rm winehq.key
 
 	#--------------------- ONLY FOR UBUNTU 19.04 ---------------
 	# If your have others version or distribution, go to https://github.com/lutris/lutris/wiki/Wine-Dependencies
-	sudo apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
-	sudo apt -y update
+	apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
+	apt -y update
 	$installer --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64
 	$installer libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386
 }
@@ -32,9 +32,9 @@ updateAndClean() {
 
 	printf "Mises à jour des programmes et suppressions des packages inutiles..." >> $TTY
 
-	sudo apt upgrade -y
-	sudo apt autoremove -y --purge
-	sudo apt clean
+	apt upgrade -y
+	apt autoremove -y --purge
+	apt clean
 
 	printf "OK\n" >> $TTY
 }

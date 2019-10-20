@@ -1,4 +1,4 @@
-installFlatpakUbuntu() {
+installFlatpak() {
 
 	printf "Installation de flatpak..." >> $TTY
 

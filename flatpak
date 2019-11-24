@@ -2,47 +2,47 @@
 # Ce script installe des logiciels avec Flatpak - Fonctionne avec toutes les distros qui ont Flatpak installée
 
 installDiscord() {
-	flatpak install flathub com.discordapp.Discord
+	flatpak install -y flathub com.discordapp.Discord
 }
 installSublimeText() {
-	flatpak install flathub com.sublimetext.three
+	flatpak install -y flathub com.sublimetext.three
 }
 installIntelliJ() {
-	flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community	
+	flatpak install -y flathub com.jetbrains.IntelliJ-IDEA-Community	
 }
 installEclipse() {
-	flatpak install flathub org.eclipse.Java
+	flatpak install -y flathub org.eclipse.Java
 }
 installAtom() {
-	flatpak install flathub io.atom.Atom
+	flatpak install -y flathub io.atom.Atom
 }
 installVisualStudioCode() {
-	flatpak install flathub com.visualstudio.code.oss
+	flatpak install -y flathub com.visualstudio.code.oss
 }
 installMinecraft() {
-	flatpak install flathub com.mojang.Minecraft
+	flatpak install -y flathub com.mojang.Minecraft
 }
 installTor() {
-	flatpak install flathub com.github.micahflee.torbrowser-launcher
+	flatpak install -y flathub com.github.micahflee.torbrowser-launcher
 }
 installSteam() {
-	flatpak install flathub com.valvesoftware.Steam
+	flatpak install -y flathub com.valvesoftware.Steam
 }
 installDConfEditor() {
-	flatpak install ca.desrt.dconf-editor
+	flatpak install -y ca.desrt.dconf-editor
 }
 installVim() {
-	flatpak install org.vim.Vim
+	flatpak install -y org.vim.Vim
 }
 installLibreOffice() {
-	flatpak install org.libreoffice.LibreOffice
+	flatpak install -y org.libreoffice.LibreOffice
 }
 installQbitTorrent() {
-	flatpak install org.qbittorrent.qBittorrent
+	flatpak install -y org.qbittorrent.qBittorrent
 }
 installVLC() {
-	flatpak install org.videolan.VLC 
+	flatpak install -y org.videolan.VLC 
 }
 installKlavaro() {
-	flatpak install flathub net.sourceforge.Klavaro
+	flatpak install -y flathub net.sourceforge.Klavaro
 }

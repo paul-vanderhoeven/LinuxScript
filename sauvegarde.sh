@@ -2,16 +2,10 @@
 
 pwd="$(pwd)"
 list=""
-destinationData="$pwd/data.tar"
-destinationConfig="$pwd/config.tar"
-destinationFirefox="$pwd/firefox.tar"
-
-while read line ; do
-	if [ -e $line ]
-	then
-		list+="$line ";
-	fi
-done < folderToSave
+date="$(date +%Y-%m-%d-%H:%M:%S)"
+destinationData="$pwd/home-$USER-$date.tar"
+destinationConfig="$pwd/config-$USER-$date.tar"
+destinationFirefox="$pwd/firefox-$USER-$date.tar"
 
 saveData() {
 	cd /home/$USER/
@@ -20,10 +14,15 @@ saveData() {
 }
 
 saveFirefoxProfil() {
-	cd /home/$USER/.mozilla/firefox/*.default
+	folder=""
+	
+	folder="$(grep "Default=.*\." < ~/.mozilla/firefox/profiles.ini | sed 's/Default=//')"
+
+	cd "/home/$USER/.mozilla/firefox/$folder"
+
 	tar cfpv $destinationFirefox *
-	cd $pwd
+
 }
 
 saveFirefoxProfil
-saveData
+#saveData

@@ -1,40 +1,51 @@
-installer="apt install -y"
 
-installLutris() { # NE FONCTIONNE QUE POUR LES DISTROS BASÉES SUR BEBIAN
+# Installe les logiciels pour les distros basée sur Debian
 
-	printf "Installation de Lutris..." >> $TTY
+apt install -y flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+changeSwapSettings() {
+	#change le déclenchement du fichier swap à 5% de la ram libre
+	echo vm.swappiness=5 | tee /etc/sysctl.d/99-swappiness.conf
+	echo vm.vfs_cache_pressure=50 | tee -a /etc/sysctl.d/99-swappiness.conf
+
+	sysctl -p /etc/sysctl.d/99-swappiness.conf
+
+	swapoff -av
+	swapon -av
+}
+installVirtualBox() {
+	apt install -y virtualbox virtualbox-dkms virtualbox-ext-pack virtualbox-guest-additions-iso virtualbox-qt
+}
+removeSnap() {
+	apt autoremove -y --purge gnome-software-plugin-snap snapd
+	rm -dfR /home/$USER/snap
+}
+installGit() {
+	apt install -y git
+}
+installGnomeTweaks() {
+	apt install -y gnome-tweaks
+}
+installGparted() {
+	apt install -y gparted
+}
+installAnalyseurUtilisationDisque() {
+	apt install -y baobab
+}
+installSynaptic() {
+	apt install -y synaptic
+}
+installOpenJre() {
+	apt install -y default-jre
+}
+installLutris() {
 	add-apt-repository -y ppa:lutris-team/lutris
 	apt -y update
-	$installer -y install lutris
-
-	printf "OK\n" >> $TTY
+	apt install -y install lutris
 }
-
-installWineForLutris() { # NE FONCTIONNE QUE POUR LES DISTROS BASÉES SUR BEBIAN
-
-	# Installer Wine (faire tourner des programmes Windows).
-
-	dpkg --add-architecture i386
-	wget -nc https://dl.winehq.org/wine-builds/winehq.key
-	apt-key add winehq.key
-	rm winehq.key
-
-	#--------------------- ONLY FOR UBUNTU 19.04 ---------------
-	# If your have others version or distribution, go to https://github.com/lutris/lutris/wiki/Wine-Dependencies
-	apt-add-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
-	apt -y update
-	$installer --install-recommends winehq-stable wine-stable wine-stable-i386 wine-stable-amd64
-	$installer libgnutls30:i386 libldap-2.4-2:i386 libgpg-error0:i386 libxml2:i386 libasound2-plugins:i386 libsdl2-2.0-0:i386 libfreetype6:i386 libdbus-1-3:i386 libsqlite3-0:i386
-}
-
 updateAndClean() {
-
-	printf "Mises à jour des programmes et suppressions des packages inutiles..." >> $TTY
-
 	apt upgrade -y
 	apt autoremove -y --purge
 	apt clean
-
-	printf "OK\n" >> $TTY
 }

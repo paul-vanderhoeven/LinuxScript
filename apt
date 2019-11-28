@@ -48,6 +48,14 @@ installLAMP() {
 	apt install -y apache2 php libapache2-mod-php mysql-server php-mysql phpmyadmin
 	apt install -y php-curl php-gd php-intl php-json php-mbstring php-xml php-zip
 }
+setupPublic_html() {
+	a2enmod userdir
+	mkdir /home/$USER/public_html
+	chmod -R 755 /home/$USER/public_html
+
+	# il faut modifier display_errors = on dans php.ini
+	# il activer le php dans un fichier de conf d'apache
+}
 updateAndClean() {
 	apt upgrade -y
 	apt autoremove -y --purge

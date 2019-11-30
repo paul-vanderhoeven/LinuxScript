@@ -33,6 +33,9 @@ if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then
 	installSynaptic
 	installOpenJre
 	installLutris
+	installLAMP
+	setupPublic_html
+	configGit
 
 	installDiscord
 	installSublimeText

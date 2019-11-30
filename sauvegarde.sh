@@ -2,15 +2,12 @@
 
 pwd="$(pwd)"
 
-date="$(date +%Y-%m-%d-%H:%M:%S)"
-
-destinationData="$pwd/home-$USER-$date.tar"
-destinationConfig="$pwd/config-$USER-$date.tar"
+destinationData="$pwd/home-$USER.tar"
 destinationFirefox="$pwd/firefox-$USER.tar"
 
 saveData() {
 	cd /home/$USER/
-	tar cfpv $destinationData --exclude="\.*" --exclude="$destinationConfig $destinationData" *
+	tar cfpv $destinationData  --exclude="[^(.git/.*)(.gitignore)].*" --exclude="$destinationFirefox" *
 	cd $pwd
 }
 

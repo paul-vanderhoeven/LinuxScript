@@ -56,6 +56,10 @@ setupPublic_html() {
 	# il faut modifier display_errors = on dans php.ini
 	# il activer le php dans un fichier de conf d'apache
 }
+configGit() {
+	git config --global user.name "Paul van der Hoeven"
+	git config --global user.email paul.vdh@hotmail.fr
+}
 updateAndClean() {
 	apt upgrade -y
 	apt autoremove -y --purge

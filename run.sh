@@ -25,36 +25,36 @@ source ./flatpak
 
 if [ $reponse = "y" ] || [ $reponse = "Y" ] ; then 
 
-	installVirtualBox
-	installGit
-	installGnomeTweaks
-	installGparted
-	installAnalyseurUtilisationDisque
-	installSynaptic
-	installOpenJre
-	installLutris
+	#installVirtualBox
+	#installGit
+	#installGnomeTweaks
+	#installGparted
+	#installAnalyseurUtilisationDisque
+	#installSynaptic
+	#installOpenJre
+	#installLutris
 	installLAMP
 	setupPublic_html
-	configGit
+	#configGit
 
-	installDiscord
-	installSublimeText
-	installIntelliJ
-	installEclipse
-	installAtom
-	installVisualStudioCode
-	installMinecraft
-	installTor
-	installSteam
-	installDConfEditor
-	installVim
-	installLibreOffice
-	installQbitTorrent
-	installVLC
-	installKlavaro
+	#installDiscord
+	#installSublimeText
+	#installIntelliJ
+	#installEclipse
+	#installAtom
+	#installVisualStudioCode
+	#installMinecraft
+	#installTor
+	#installSteam
+	#installDConfEditor
+	#installVim
+	#installLibreOffice
+	#installQbitTorrent
+	#installVLC
+	#installKlavaro
 
-	changeSwapSettings
-	removeSnap
+	#changeSwapSettings
+	#removeSnap
 
-	updateAndClean
+	#updateAndClean
 fi

@@ -50,11 +50,19 @@ installLAMP() {
 }
 setupPublic_html() {
 	a2enmod userdir
-	mkdir /home/$USER/public_html
+	mkdir -p /home/$USER/public_html
 	chmod -R 755 /home/$USER/public_html
 
-	# il faut modifier display_errors = on dans php.ini
-	# il activer le php dans un fichier de conf d'apache
+	systemctl restart apache2
+
+	sed 's/display_errors = Off/display_errors = On/' /etc/php/7.2/apache2/php.ini > /etc/php/7.2/apache2/php.ini.new
+	rm /etc/php/7.2/apache2/php.ini
+	mv /etc/php/7.2/apache2/php.ini.new /etc/php/7.2/apache2/php.ini
+	sed 's/php_admin_flag engine Off/php_admin_flag engine On/' /etc/apache2/mods-enabled/php7.2.conf > /etc/apache2/mods-enabled/php7.2.conf.new
+	rm /etc/apache2/mods-enabled/php7.2.conf
+	mv /etc/apache2/mods-enabled/php7.2.conf.new /etc/apache2/mods-enabled/php7.2.conf
+
+	systemctl restart apache2
 }
 configGit() {
 	git config --global user.name "Paul van der Hoeven"

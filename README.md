@@ -1,4 +1,4 @@
-## linux_config_script
+## LinuxScript
 
 # Script d'installation d'apps
 
